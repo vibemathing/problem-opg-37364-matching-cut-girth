@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762848,
+    "node_id": "R_kgDOUP0TYA",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-37364-matching-cut-girth",
+  "problem_contract_sha256": "cb72346bada4d4c41ce287a6d04f4b756717cc0a12cdb85ace863b379873d0eb",
+  "harness_snapshot_sha256": "ae8996d3666d0964bf02dadfc701c16dd10cb4f82d9b096f7619fb49973af861",
+  "base_revision": "fb078f6f3aa0c7cbaae06dd7bed5de1129004b59",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg37364-a01",
+  "route_id": "route:degenerate-and-bridge-audit-v1",
+  "graph_id": "graph:opg37364-initial-v1",
+  "obligation_id": "obligation:opg37364-contract-edge-cases",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "ChatGPT",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg37364-a01-c02-cutvertex",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-37364-matching-cut-girth/issues/3",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Prove a cut-vertex reduction preserving nonexistence of a matching cut, girth and the strict average-degree bound; attack unjustified stronger restrictions.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg37364-cutvertex-c02",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg37364-c02-cutvertex-reduction.md",
+      "sha256": "b800a5dbd7e0c57af8088aa9d161a785ecc2564121d36ff11094eae5c9fde9d3"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg37364-c02-local-global",
+      "text": "For a connected graph split at a cut vertex, the graph has a matching cut exactly when one vertex-piece does; the cut extension is explicit.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c02-density",
+      "text": "At least one cut-vertex piece has strictly smaller average degree than the connected graph; its order decreases and its girth does not decrease.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c02-two-connected",
+      "text": "For fixed d,g the n>=2 assertion is equivalent to its 2-connected restriction. The literal nonempty-graph assertion additionally retains the MC(K1) conjunct.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c02-degree-two-pair",
+      "text": "Adjacent degree-two vertices in a triangle-free simple graph give an explicit two-edge matching cut.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c02-attack-witnesses",
+      "text": "The K3/K5 vertex wedge invalidates arbitrary-block density inheritance; K(2,3) invalidates inferring minimum degree three from the stated girth-four residual conditions.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Finite simple graphs, both shores nonempty, empty crossing matching allowed, forest girth +infinity.",
+    "All n>=2 and 2-connected restrictions are explicit subsidiary statements, not contract amendments.",
+    "The cut-vertex pieces are induced by one component of G-x together with x; density selection uses a minimum-average piece.",
+    "Only elementary finite-graph counting and order induction are used."
+  ],
+  "risks": [
+    "Nonterminal ambiguous_problem_contract is retained from C01; no root upgrade is made.",
+    "A bound on global average degree is not automatically inherited by an arbitrary block.",
+    "K(2,3) is a girth-four attack; it does not by itself exclude separately justified girth-at-least-five reductions.",
+    "No mathematical verifier, solver or repository command was run; artifact hashing is not a correctness check."
+  ],
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "failed_route_proposal": {
+    "route_fingerprint": "b57e29d21e1f9320ef605ff97ab46acc1db2658aed011ef7b088b843a54ee408",
+    "failure_class": "counterexample",
+    "blocker": "The proposed inference from 2-connectivity, girth four and no adjacent degree-two vertices to minimum degree at least three fails on K(2,3). This rejects only that stronger inference, not the admitted audit route.",
+    "evidence_locators": [
+      "research/artifacts/candidates/opg37364-c02-cutvertex-reduction.md"
+    ],
+    "next_obligation": "obligation:opg37364-contract-edge-cases"
+  },
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "fb078f6f3aa0c7cbaae06dd7bed5de1129004b59",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "research/artifacts/candidates/opg37364-c01-edge-audit.md",
+      "revision": "fb078f6f3aa0c7cbaae06dd7bed5de1129004b59",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "research/artifacts/source-notes/opg37364-c01-source-faithfulness.md",
+      "revision": "fb078f6f3aa0c7cbaae06dd7bed5de1129004b59",
+      "relation": "unknown"
+    },
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "research/records/failed-routes.jsonl",
+      "revision": "fb078f6f3aa0c7cbaae06dd7bed5de1129004b59",
+      "relation": "prior_art"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:47:16Z"
+}
