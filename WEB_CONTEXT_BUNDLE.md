@@ -74,7 +74,27 @@ This file is generated from repository truth and bounded for the web channel. It
       "web_status": "active"
     }
   ],
-  "attempts": [],
+  "attempts": [
+    {
+      "artifacts": [],
+      "attempt_id": "attempt:web-20260906-opg37364-a01",
+      "claims": [],
+      "completed_at": null,
+      "generator": "chatgpt-web-github",
+      "inputs": [
+        "problem-library/records/canonical-problems.jsonl",
+        "research/records/failed-routes.jsonl"
+      ],
+      "lifecycle": "running",
+      "method": "proof",
+      "objective": "先做 ProblemContract 忠实性与退化情形审计：在“matching cut 为两侧都非空且 crossing edges 可为空的 matching”解释下，判定 |V(G)|=1、disconnected graph、connected graph with a bridge、forest 以及 d≤2 的全部边界情形；与原来源定义比较，并证明能够成立的最强安全缩减。",
+      "obligation_graph_id": "graph:opg37364-initial-v1",
+      "problem_contract_sha256": "cb72346bada4d4c41ce287a6d04f4b756717cc0a12cdb85ace863b379873d0eb",
+      "problem_id": "problem:opg-37364-matching-cut-girth",
+      "route_id": "route:degenerate-and-bridge-audit-v1",
+      "started_at": "2026-09-06T05:03:30Z"
+    }
+  ],
   "failed_routes": [],
   "knowledge_operators": [
     {
@@ -203,7 +223,40 @@ This file is generated from repository truth and bounded for the web channel. It
       "source_id": "sagemath"
     }
   ],
-  "obligation_graphs": [],
+  "obligation_graphs": [
+    {
+      "attempt_id": "attempt:web-20260906-opg37364-a01",
+      "graph_id": "graph:opg37364-initial-v1",
+      "obligations": [
+        {
+          "dependencies": [
+            "obligation:opg37364-contract-edge-cases"
+          ],
+          "kind": "root_claim",
+          "obligation_id": "obligation:opg37364-root",
+          "statement": {
+            "formal_declaration": null,
+            "language": "en",
+            "text": "For every real d>0, does there exist an integer g≥3 such that every finite graph with average degree less than d and girth at least g has a matching cut?"
+          },
+          "statement_sha256": "4950ba0bb24439681975b8ad50bfbcb08af2f64c75f04c257f5b035ce00fe64d"
+        },
+        {
+          "dependencies": [],
+          "kind": "lemma",
+          "obligation_id": "obligation:opg37364-contract-edge-cases",
+          "statement": {
+            "formal_declaration": null,
+            "language": "zh",
+            "text": "先做 ProblemContract 忠实性与退化情形审计：在“matching cut 为两侧都非空且 crossing edges 可为空的 matching”解释下，判定 |V(G)|=1、disconnected graph、connected graph with a bridge、forest 以及 d≤2 的全部边界情形；与原来源定义比较，并证明能够成立的最强安全缩减。"
+          },
+          "statement_sha256": "c96b645fcad682fc7be85677ad51574da85658379f3982c3c9c70d97cc16a4b6"
+        }
+      ],
+      "root_obligation_id": "obligation:opg37364-root",
+      "route_id": "route:degenerate-and-bridge-audit-v1"
+    }
+  ],
   "problem_contract": {
     "acceptance": {
       "policy": "solution-admission-v1"
