@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1358762848,
+    "node_id": "R_kgDOUP0TYA",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:opg-37364-matching-cut-girth",
+  "problem_contract_sha256": "cb72346bada4d4c41ce287a6d04f4b756717cc0a12cdb85ace863b379873d0eb",
+  "harness_snapshot_sha256": "ae8996d3666d0964bf02dadfc701c16dd10cb4f82d9b096f7619fb49973af861",
+  "base_revision": "f0df824cb29a0a68ea860d76a2b0668d3900fac2",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:web-20260906-opg37364-a01",
+  "route_id": "route:degenerate-and-bridge-audit-v1",
+  "graph_id": "graph:opg37364-initial-v1",
+  "obligation_id": "obligation:opg37364-contract-edge-cases",
+  "generator": {
+    "principal": "chatgpt-web-github",
+    "model_label": "ChatGPT",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-opg37364-a01-c01-edge-audit",
+    "issue_number": 3,
+    "issue_url": "https://github.com/vibemathing/problem-opg-37364-matching-cut-girth/issues/3",
+    "pull_request_number": 4,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-37364-matching-cut-girth/pull/4"
+  },
+  "objective": "Audit the literal singleton obstruction, empty and singleton matching cuts, forests, strict d<=2 boundaries, and source faithfulness without changing the contract.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:opg37364-edge-audit-c01",
+      "kind": "proof",
+      "locator": "research/artifacts/candidates/opg37364-c01-edge-audit.md",
+      "sha256": "59f856186f6c3c12e84c24c452e1b4763dd86e7f5b061d9408066008bfce6439"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:opg37364-c01-singleton",
+      "text": "Under the frozen nonempty-shore semantics, K1 meets average degree <d and girth >=g for all d>0 and g>=3 but has no matching cut.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-disconnected",
+      "text": "Every disconnected finite simple graph of order at least two has an empty matching cut.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-bridge",
+      "text": "In a connected graph, singleton-edge cuts are exactly bridges and are matching cuts.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-forest",
+      "text": "A nonempty forest has a matching cut exactly when its order is at least two; with c components its average degree is 2-2c/n.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-small-d",
+      "text": "On the explicitly restricted domain n>=2, average degree <2 guarantees a singleton-shore matching cut, so g=3 works for 0<d<=2. The unrestricted root retains K1.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-equality-audit",
+      "text": "Among nonempty finite simple graphs of average degree at most two, the only graphs without matching cuts are K1 and C3.",
+      "status": "candidate"
+    },
+    {
+      "claim_id": "claim:opg37364-c01-safe-residual",
+      "text": "A nontrivial qualifying graph without a matching cut must be connected, bridgeless and have minimum degree at least two; this does not remove K1 from the literal contract.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Finite simple graphs; average degree 2m/n is defined only for n>0.",
+    "Both shores are nonempty; the crossing matching may be empty.",
+    "Forests have girth +infinity; retain the strict inequality average degree <d.",
+    "Every n>=2 restriction in a subsidiary claim is explicit and does not amend the root.",
+    "Only finite-graph basics, finite combinatorics and real arithmetic are used in the elementary deductions."
+  ],
+  "risks": [
+    "ambiguous_problem_contract: original source conventions about small order and nonempty shores are not fully explicit; trusted semantic review is required.",
+    "The original UnsolvedMath page could not be retrieved; OPG and primary-paper locators are distinguished.",
+    "The literature contains a directly relevant nontrivial family; its theorem dependencies are not admitted evidence here.",
+    "No mathematical verifier or repository command was run. Local text serialization and SHA-256 calculation are not mathematical verification."
+  ],
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "failed_route_proposal": {
+    "route_fingerprint": "fa6985fde37fb5860c47dd7345780c9b858b5b468c61c446a42500991986c6d6",
+    "failure_class": "source_gap",
+    "blocker": "nonterminal ambiguous_problem_contract: do not silently remove K1, allow empty shores, or treat connectedness as an order bound.",
+    "evidence_locators": [
+      "research/artifacts/candidates/opg37364-c01-edge-audit.md",
+      "research/artifacts/source-notes/opg37364-c01-source-faithfulness.md"
+    ],
+    "next_obligation": "obligation:opg37364-contract-edge-cases"
+  },
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "f0df824cb29a0a68ea860d76a2b0668d3900fac2",
+      "relation": "exact"
+    },
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "research/records/failed-routes.jsonl",
+      "revision": "f0df824cb29a0a68ea860d76a2b0668d3900fac2",
+      "relation": "prior_art"
+    },
+    {
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "path": "research/artifacts/source-notes/opg37364-c01-source-faithfulness.md",
+      "revision": "sha256:efe08d7681354064672ef83f801e74578708427fe8a151f0b611e38608af70c3",
+      "relation": "unknown"
+    }
+  ],
+  "requested_verification": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-06T07:32:54Z"
+}
