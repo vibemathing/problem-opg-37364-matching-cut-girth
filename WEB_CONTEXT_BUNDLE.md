@@ -208,72 +208,115 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "Open Problem Garden OPG-37364"
+    ],
     "allowed_axioms": [
-      "none"
+      "finite-graph-basic",
+      "finite-combinatorics",
+      "real-arithmetic"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "All graphs and digraphs are finite and simple unless the statement explicitly says otherwise."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "high-girth-graph-enumerator-v1",
+        "matching-cut-sat-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 65536,
-        "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-09-06T03:30:00Z",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "2|E(G)|/|V(G)| for a nonempty finite graph G.",
+        "term": "average degree"
+      },
+      {
+        "definition": "The length of a shortest cycle, with girth +∞ for forests.",
+        "term": "girth"
+      },
+      {
+        "definition": "A nontrivial vertex bipartition (A,B) such that the edges with one endpoint in A and one in B form a matching.",
+        "term": "matching cut"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "Finite simple graphs with bounded average degree and sufficiently large girth.",
       "objects": [
-        "template-placeholder"
+        "finite graph",
+        "average degree",
+        "girth",
+        "matching cut"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "05C70"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:opg-37364-matching-cut-girth",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
-        "kind": "find",
+        "domain": "real numbers d>0",
+        "kind": "forall",
         "variables": [
-          "replacement_problem"
+          "d"
+        ]
+      },
+      {
+        "domain": "integers g≥3",
+        "kind": "exists",
+        "variables": [
+          "g"
+        ]
+      },
+      {
+        "domain": "finite simple graphs with average degree <d and girth ≥g",
+        "kind": "forall",
+        "variables": [
+          "G"
+        ]
+      },
+      {
+        "domain": "nonempty vertex bipartitions V(G)=A⊔B whose crossing edges form a matching",
+        "kind": "exists",
+        "variables": [
+          "A",
+          "B"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-09-02T00:06:43Z",
+        "source": "UnsolvedMath",
+        "source_record_id": "unsolvedmath-opg-37364-7fb29f738f29",
+        "url": "https://www.unsolvedmath.com/problems/OPG-37364"
       }
     ],
     "statement": {
       "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "text": "For every real d>0, does there exist an integer g≥3 such that every finite graph with average degree less than d and girth at least g has a matching cut?",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "Matching cuts in sparse high-girth graphs",
+    "updated_at": "2026-09-06T03:30:00Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "cb72346bada4d4c41ce287a6d04f4b756717cc0a12cdb85ace863b379873d0eb"
 }
 ```
