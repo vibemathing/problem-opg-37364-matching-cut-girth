@@ -26,8 +26,8 @@
     "branch": "web/attempt-opg37364-a01-c01-edge-audit",
     "issue_number": 3,
     "issue_url": "https://github.com/vibemathing/problem-opg-37364-matching-cut-girth/issues/3",
-    "pull_request_number": null,
-    "pull_request_url": null
+    "pull_request_number": 4,
+    "pull_request_url": "https://github.com/vibemathing/problem-opg-37364-matching-cut-girth/pull/4"
   },
   "objective": "Audit the literal singleton obstruction, empty and singleton matching cuts, forests, strict d<=2 boundaries, and source faithfulness without changing the contract.",
   "candidate_artifacts": [
