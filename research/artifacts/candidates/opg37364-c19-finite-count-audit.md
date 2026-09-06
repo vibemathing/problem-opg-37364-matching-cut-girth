@@ -100,7 +100,7 @@ e=v has just one edge outside a spanning tree, and therefore only
 one cycle, including the possible parallel-edge two-cycle.
 This proves the necessary excess when the cycles are distinct.
 
-C16.4's deliberately overcounting catalogue has at most
+C16.5's deliberately overcounting catalogue has at most
   K^2*2^K*(40*K^2)^K
 abstract typed and edge-coloured patterns. At most N^v injective
 vertex labelings are possible. For any compatible labeled pattern,
