@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "checker.py",
+    "--input",
+    "input.json"
+  ],
+  "cpu_user_seconds": 0.569056,
+  "elapsed_seconds": 0.615645,
+  "exit_code": 0,
+  "finished_at": "2026-09-07T06:26:19.303478+00:00",
+  "forced_stop": null,
+  "format": "r10-second-audit-execution-v1",
+  "hashes": {
+    "checker.py": "38ea6fc927dde92d1f5dc370686e9efafc8306a48a0b7de16f355cafa2c6ea09",
+    "input.json": "4602d46ba782b8996a2ff65546b56fd30790cf875d234f2b7266e69df41a00de",
+    "output.json": "07983dd3c1ddbe5fb792c458cdaed8f0403c29c658db7f1e0605a30cc10f3a95",
+    "runner.py": "fa0bb3e7f860a7af7bd77435bf6c853a0e0682ef03bb1a5f918b6de84770b7a0",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limitations": [
+    "Finite tests do not prove the all-girth theorem.",
+    "No theorem prover or scoped admission gate executed.",
+    "No general good tuple or huge regularization selector was generated."
+  ],
+  "limits": {
+    "address_space_bytes": 268435456,
+    "checker_processes": 1,
+    "combined_output_bytes": 131072,
+    "cpu_seconds": 35,
+    "per_stream_bytes": 65536,
+    "threads": 1,
+    "wall_seconds": 40
+  },
+  "max_rss_kib": 94760,
+  "output_bytes": {
+    "output.json": 2075,
+    "stderr.txt": 0
+  },
+  "role": "user-authorized local candidate-generator self-check; not a registered verifier",
+  "routing": "CPU: exact integers, rational arithmetic and bounded finite graph controls",
+  "runtime": {
+    "implementation": "CPython",
+    "system": "Linux",
+    "third_party_packages": [],
+    "version": "3.13.5"
+  },
+  "started_at": "2026-09-07T06:26:18.687827+00:00",
+  "verdict": "candidate_only"
+}

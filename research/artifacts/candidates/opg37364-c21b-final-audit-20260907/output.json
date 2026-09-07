@@ -1,0 +1,256 @@
+{
+  "arithmetic": {
+    "coefficient_cases": 90,
+    "enumerated_tuples": 275,
+    "q24_N2": {
+      "bad_union": 602,
+      "fixed_shore": 301,
+      "incidences": 1204
+    },
+    "strict_failure_bound": "41/800"
+  },
+  "assertions": 75725,
+  "graphs": {
+    "coincident_exchanges": 5592,
+    "full_size_saturation_controls": 2,
+    "local_exchanges": 7248,
+    "nonconstant_colourings": 46528,
+    "subdivision_graphs": 64
+  },
+  "mutations": [
+    {
+      "control": {
+        "actual": "1/6",
+        "mutant": "1/4"
+      },
+      "detected": true,
+      "id": "M01-replacement-slots"
+    },
+    {
+      "control": {
+        "incidence": 1204,
+        "union": 602
+      },
+      "detected": true,
+      "id": "M02-incidence-as-union"
+    },
+    {
+      "control": {
+        "mutant_cycles": 0,
+        "two_cycles": 3
+      },
+      "detected": true,
+      "id": "M03-omit-parallel-two-cycles"
+    },
+    {
+      "control": {
+        "graph": "K2,3",
+        "shared_path_length": 2
+      },
+      "detected": true,
+      "id": "M04-omit-shared-paths"
+    },
+    {
+      "control": {
+        "deleted": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "shore": [
+          0
+        ]
+      },
+      "detected": true,
+      "id": "M05-unbounded-deletion-degree"
+    },
+    {
+      "control": {
+        "H": [],
+        "J": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "g": 4,
+        "new_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "detected": true,
+      "id": "M06-initial-H-distance"
+    },
+    {
+      "control": {
+        "B": 2,
+        "N": 17,
+        "degree_sum": 17,
+        "k": 1
+      },
+      "detected": true,
+      "id": "M07-missing-parity"
+    },
+    {
+      "control": {
+        "new_cycle_length": 18,
+        "old_cycle_length": 17,
+        "u": 0,
+        "v": 0
+      },
+      "detected": true,
+      "id": "M08-forbid-coincident-centres"
+    },
+    {
+      "control": {
+        "J": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "added": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "triangles": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      "detected": true,
+      "id": "M09-ignore-one-new-edge-cycles"
+    },
+    {
+      "control": {
+        "crossing_degree": 2,
+        "new_vertex_colour": 1,
+        "old_core_colour": 0
+      },
+      "detected": true,
+      "id": "M10-ignore-opposite-new-vertex"
+    },
+    {
+      "control": {
+        "final_edges": 1300,
+        "final_vertices": 520,
+        "seed_edges": 312,
+        "seed_vertices": 26
+      },
+      "detected": true,
+      "id": "M11-weak-five-endpoint"
+    },
+    {
+      "control": {
+        "distinct_neighbours": 1,
+        "parallel_edges": 2
+      },
+      "detected": true,
+      "id": "M12-collapse-edge-instances"
+    },
+    {
+      "control": {
+        "matching_cut_shore": [
+          5,
+          6
+        ],
+        "subdivided_edge": [
+          0,
+          2
+        ]
+      },
+      "detected": true,
+      "id": "M13-subdivide-core-twice"
+    },
+    {
+      "control": {
+        "mask": 0
+      },
+      "detected": true,
+      "id": "M14-allow-empty-shore"
+    },
+    {
+      "control": {
+        "common_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "detected": true,
+      "id": "M15-shared-edges-not-path"
+    },
+    {
+      "control": {
+        "new_vertex": 6,
+        "only_old_neighbour": 0
+      },
+      "detected": true,
+      "id": "M16-single-new-neighbour"
+    }
+  ],
+  "patterns": {
+    "adjacent_shared_edge_path_pairs": 1200,
+    "cycle_tuples": 241,
+    "extension_patterns": 988,
+    "intersecting_cycle_pairs": 4539,
+    "shared_edge_pairs": 4311
+  },
+  "purpose": "second exact finite self-check; no universal or trusted verdict",
+  "verdict": "candidate_only"
+}

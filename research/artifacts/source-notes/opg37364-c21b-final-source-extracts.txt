@@ -1,0 +1,15 @@
+Source: https://www.openproblemgarden.org/op/matching_cut_and_girth
+Locator: definition following Question; page posted November 30, 2011.
+Retrieved: 2026-09-07, rendered primary HTML.
+Short exact quote: Graphs having a matching-cut are called decomposable.
+Math alt-text transcription: S\subset V; M = E(S:V\setminus S).
+
+Source: https://link.springer.com/article/10.1007/s00453-025-01318-8
+Version: Algorithmica 87, 1199-1221 (2025), published May 8, 2025.
+Retrieved: 2026-09-07, publisher HTML, not a PDF inspection.
+Locator: Section 2, valid red-blue colouring, condition 3.
+Short exact quote: both colours red and blue are used at least once.
+Locator: Section 1, Our Focus.
+Short exact quote: a forest has infinite girth.
+
+Digest scope: this selected UTF-8 extract, NOT complete raw HTML bytes.

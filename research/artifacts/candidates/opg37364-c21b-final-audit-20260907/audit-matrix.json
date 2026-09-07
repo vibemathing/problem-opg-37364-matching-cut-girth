@@ -1,0 +1,58 @@
+{
+  "additional_pairing_controls": 20,
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "detected_mutations": 16,
+  "first_fatal_original_lemma_identified": null,
+  "format": "r10-c21b-final-matrix-v1",
+  "frozen_revision": "87efc30c69b94224519dd7affbe4770fc65a5bff",
+  "next_obligation": "trusted registration, correct counterexample classification, formal source/toolchain and separate semantic acceptance",
+  "obligations": {
+    "A": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "A",
+      "trusted_status": "pending"
+    },
+    "B": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "B",
+      "trusted_status": "pending"
+    },
+    "C": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "C",
+      "trusted_status": "pending"
+    },
+    "D": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "D",
+      "trusted_status": "pending"
+    },
+    "E": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "E",
+      "trusted_status": "pending"
+    },
+    "F": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "executed_supplemental",
+      "report_section": "F",
+      "trusted_status": "pending"
+    },
+    "G": {
+      "conventional_status": "audited_candidate",
+      "finite_control_status": "primary_HTML_comparison",
+      "report_section": "G",
+      "trusted_status": "pending"
+    }
+  },
+  "original_archive_tree": "cc386d6831e5d9d3c7922e4ed59865b12d652897",
+  "proof_sha256": "82a1adb1043c9a60b3c9d43696d68c24ca14bf7addd3189dd09b9cfcbd13cbb8",
+  "second_run_assertions": 75725,
+  "verdict": "candidate_only"
+}
