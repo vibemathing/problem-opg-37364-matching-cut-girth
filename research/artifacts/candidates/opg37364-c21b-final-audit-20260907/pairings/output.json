@@ -1,0 +1,127 @@
+{
+  "controls": [
+    {
+      "case": "uv_xy",
+      "g": 4,
+      "girth_after": 6,
+      "order": 6
+    },
+    {
+      "case": "uy_vx",
+      "g": 4,
+      "girth_after": 8,
+      "order": 8
+    },
+    {
+      "case": "coincident",
+      "g": 4,
+      "girth_after": 5,
+      "order": 5
+    },
+    {
+      "case": "one_new_edge",
+      "g": 4,
+      "girth_after": 4,
+      "order": 6
+    },
+    {
+      "case": "uv_xy",
+      "g": 5,
+      "girth_after": 7,
+      "order": 7
+    },
+    {
+      "case": "uy_vx",
+      "g": 5,
+      "girth_after": 10,
+      "order": 10
+    },
+    {
+      "case": "coincident",
+      "g": 5,
+      "girth_after": 6,
+      "order": 6
+    },
+    {
+      "case": "one_new_edge",
+      "g": 5,
+      "girth_after": 5,
+      "order": 7
+    },
+    {
+      "case": "uv_xy",
+      "g": 6,
+      "girth_after": 8,
+      "order": 8
+    },
+    {
+      "case": "uy_vx",
+      "g": 6,
+      "girth_after": 12,
+      "order": 12
+    },
+    {
+      "case": "coincident",
+      "g": 6,
+      "girth_after": 7,
+      "order": 7
+    },
+    {
+      "case": "one_new_edge",
+      "g": 6,
+      "girth_after": 6,
+      "order": 8
+    },
+    {
+      "case": "uv_xy",
+      "g": 7,
+      "girth_after": 9,
+      "order": 9
+    },
+    {
+      "case": "uy_vx",
+      "g": 7,
+      "girth_after": 14,
+      "order": 14
+    },
+    {
+      "case": "coincident",
+      "g": 7,
+      "girth_after": 8,
+      "order": 8
+    },
+    {
+      "case": "one_new_edge",
+      "g": 7,
+      "girth_after": 7,
+      "order": 9
+    },
+    {
+      "case": "uv_xy",
+      "g": 8,
+      "girth_after": 10,
+      "order": 10
+    },
+    {
+      "case": "uy_vx",
+      "g": 8,
+      "girth_after": 16,
+      "order": 16
+    },
+    {
+      "case": "coincident",
+      "g": 8,
+      "girth_after": 9,
+      "order": 9
+    },
+    {
+      "case": "one_new_edge",
+      "g": 8,
+      "girth_after": 8,
+      "order": 10
+    }
+  ],
+  "count": 20,
+  "scope": "Local switch cycle classification only; not maximum-cardinality or all-girth existence verification.",
+  "verdict": "candidate_only"
+}

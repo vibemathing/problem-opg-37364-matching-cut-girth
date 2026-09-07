@@ -1,0 +1,15 @@
+{
+  "error": "OSError errno12 during process creation",
+  "format": "r10-startup-failure-v1",
+  "invocation": [
+    "python",
+    "runner.py"
+  ],
+  "mathematical_consequence": "none",
+  "observed_at": "2026-09-07T06:20:54.876469+00:00",
+  "output_bytes": 0,
+  "recovery": "Run the same bounded runner under python -S to avoid site startup overhead; no memory limit increase.",
+  "runner_sha256": "fa0bb3e7f860a7af7bd77435bf6c853a0e0682ef03bb1a5f918b6de84770b7a0",
+  "status": "checker_not_started",
+  "verdict": "candidate_only"
+}
