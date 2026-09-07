@@ -1,0 +1,45 @@
+{
+  "command": [
+    "python",
+    "-S",
+    "separate_audit.py"
+  ],
+  "elapsed_seconds": 0.637246,
+  "exit_code": 0,
+  "forced_stop": null,
+  "format": "r10-c31-bounded-execution-v1",
+  "input_sha256": {
+    "separate_audit.py": "16fee43eeb555a7f8146f2f1c6c5fdfbab774ef52fb362883e1d64b8ab720098"
+  },
+  "limits": {
+    "address_space_bytes": 268435456,
+    "combined_output_bytes": 131072,
+    "cpu_seconds": 35,
+    "stderr_bytes": 65536,
+    "stdout_bytes": 65536,
+    "thread_environment": 1,
+    "wall_seconds": 40
+  },
+  "outputs": {
+    "stderr": {
+      "bytes": 0,
+      "path": "separate.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 3231,
+      "path": "separate.stdout.txt",
+      "sha256": "6ec18e033a708f1b0cae9311a8086abdafe516489cca1c247ca8e010ef362b96"
+    }
+  },
+  "runner_sha256": "fdc14e3eef069fac7148468967f00a3d6051a823f889eee7649e517014840381",
+  "runtime": {
+    "binary_sha256": "17b78e0a93175e86f9ac03141924fd7a7f0c0c52e66b34bfa0de20ffef989df1",
+    "implementation": "CPython",
+    "os": "Linux",
+    "version": "3.13.5"
+  },
+  "started_at_unix": 1788789669.4484887,
+  "trust": "local generator-owned replay only; no trusted verifier/provider identity or attestation",
+  "verdict": "candidate_only"
+}

@@ -1,0 +1,42 @@
+{
+  "branch_ref_after_block": "7754aecc74e74f35f535880693282be3bc26d0d0",
+  "files": [
+    {
+      "bytes": 4568,
+      "disposition": "write_blocked",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/CoreExtension.lean",
+      "sha256": "365e1beb9958341ed5e959c2a8437f2f20b399159f95b46c16303bad6bdf8d95"
+    },
+    {
+      "bytes": 6913,
+      "disposition": "write_blocked",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/NoCutExtension.lean",
+      "sha256": "ef535c08db3a609f6b33bcfcdc52a8bded34df592567d68f690119c47102047e"
+    },
+    {
+      "bytes": 6485,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_certificate.py",
+      "sha256": "4cd26f2ba3bd8ff242f5e809c954bb6ae0d47d216d9adeccc770015ff0c9eb82"
+    },
+    {
+      "bytes": 2971,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_cut_certificate.py",
+      "sha256": "1365cec846ac584f46b4a9a98d4cb7c96e87e45af8a724c2b327dffb525018e7"
+    },
+    {
+      "bytes": 1887,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_quantifier_certificate.py",
+      "sha256": "cb4033baae29516e4547d584989846b1e2809ffc9de6de9792f8522d04b4d973"
+    }
+  ],
+  "format": "r10-c31-pending-transport-v1",
+  "next_action": "Resume these exact file writes only after the platform authorizes the operation. Do not infer native compilation or trusted acceptance from the persisted ND replay.",
+  "observed_error": "Platform blocked the call because it could not determine the safety state; an unchanged bounded retry was also blocked.",
+  "operation": "GitHub.create_tree adding CoreExtension.lean and NoCutExtension.lean",
+  "remote_inventory_scope": "This file records local pending source bytes; they are not claimed present in the commit.",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "verdict": "candidate_only"
+}

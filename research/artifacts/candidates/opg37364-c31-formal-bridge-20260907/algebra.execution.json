@@ -1,0 +1,46 @@
+{
+  "command": [
+    "python",
+    "-S",
+    "algebra_replay.py"
+  ],
+  "elapsed_seconds": 0.040878,
+  "exit_code": 0,
+  "forced_stop": null,
+  "format": "r10-c31-bounded-execution-v1",
+  "input_sha256": {
+    "algebra-certificates.json": "8cc0f4a8074e02f3675106150a169aed498f8de6db90dbec9bea8d9e5f34f564",
+    "algebra_replay.py": "76a50048bd6ca9be258e1641fb249094472c10fe348d808818d516d9e1426fa3"
+  },
+  "limits": {
+    "address_space_bytes": 268435456,
+    "combined_output_bytes": 131072,
+    "cpu_seconds": 35,
+    "stderr_bytes": 65536,
+    "stdout_bytes": 65536,
+    "thread_environment": 1,
+    "wall_seconds": 40
+  },
+  "outputs": {
+    "stderr": {
+      "bytes": 0,
+      "path": "algebra.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 3140,
+      "path": "algebra.stdout.txt",
+      "sha256": "8cc67ca5985f085f67e14979c64085a7d74f2f2dd126a64d03b234543cde0b46"
+    }
+  },
+  "runner_sha256": "fdc14e3eef069fac7148468967f00a3d6051a823f889eee7649e517014840381",
+  "runtime": {
+    "binary_sha256": "17b78e0a93175e86f9ac03141924fd7a7f0c0c52e66b34bfa0de20ffef989df1",
+    "implementation": "CPython",
+    "os": "Linux",
+    "version": "3.13.5"
+  },
+  "started_at_unix": 1788789670.1255622,
+  "trust": "local generator-owned replay only; no trusted verifier/provider identity or attestation",
+  "verdict": "candidate_only"
+}

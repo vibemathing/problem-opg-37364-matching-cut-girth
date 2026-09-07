@@ -1,0 +1,84 @@
+{
+  "base_revision": "7754aecc74e74f35f535880693282be3bc26d0d0",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "blocked_operation": "Platform blocked the call because it could not determine the safety state; an unchanged bounded retry was also blocked.",
+  "branch": "web/attempt-opg37364-a01-c31-formal-20260907",
+  "failed_routes_checked": [],
+  "first_erroneous_original_lemma_found": null,
+  "first_open_gap": "Native replay/export correspondence and trusted semantic acceptance are missing; A/B general counting and cycle catalogue are not yet formalized.",
+  "first_uncompiled_declaration": "R10.core_extension",
+  "first_unformalized_combinatorial_lemma": "For k compatible prescribed permutation pairs on N labels, the extension set is in bijection with permutations of the N-k complement; hence its cardinality is (N-k)!.",
+  "format": "r10-c31-checkpoint-v1",
+  "historical_checkpoint_limitation": "Earlier C31 comment-only SMT and Lean staged hashes were not available as source/output bytes on the branch or mounted attachments. They were not reconstructed or reused as execution evidence.",
+  "key_sha256": {
+    "NoCutExtension.lean": "ef535c08db3a609f6b33bcfcdc52a8bded34df592567d68f690119c47102047e",
+    "algebra.stdout.txt": "8cc67ca5985f085f67e14979c64085a7d74f2f2dd126a64d03b234543cde0b46",
+    "nd_kernel.py": "2d864163bacf7f1eb0bf5786d3ddb2aaf963686a99e8d953f9831cb06d5620fd",
+    "no-cut-extension.nd.json": "686018020170232cf17bef1812a55207d61fa56e0cae942931f4e582a6d86aaa",
+    "quantifier-bridge.nd.json": "266cc0a7cf83248dca2672d8779a083add61cb726b3bce0c8e56cc50c4149c95",
+    "replay.stdout.txt": "5fbfe9fd56d1dc48a3a86a0c3bcf042c28c5ec6917efc3de608360d200806cc3",
+    "report.md": "2d1d157734771accea878eae55ff5ef973bebbb7ddf5cfa107d0233f7507e6c3",
+    "separate.stdout.txt": "6ec18e033a708f1b0cae9311a8086abdafe516489cca1c247ca8e010ef362b96"
+  },
+  "lean_project_scope": "QuantifierBridge only; E native exports are pending transport and compilation",
+  "local_checked_scope": [
+    "Three closed classical natural-deduction certificates over arbitrary sorts; 178/252/26 proof nodes. The third uses no classical rule.",
+    "Thirteen exact nonnegative-polynomial or integer certificates, with graph-to-slack semantics separately stated.",
+    "Separate permanent/closed-walk and graph implementation: 37961 bounded assertions and all 16 mutation controls."
+  ],
+  "native_lean": "not_started_runtime_unavailable; source pin leanprover/lean4:v4.19.0",
+  "next_actions": [
+    "Resume these exact file writes only after the platform authorizes the operation. Do not infer native compilation or trusted acceptance from the persisted ND replay.",
+    "Replay the three Init-only Lean exports under the fixed toolchain and inspect actual axiom output.",
+    "Formalize the compatible-prescription complement bijection and factorial cardinality, then the finite overlapping-cycle cover.",
+    "Retain the existing scoped admission request until an applicable trusted chain exists; do not submit another copy."
+  ],
+  "not_claimed": [
+    "Native Lean elaboration or printed-axiom success",
+    "Trusted provider/toolchain attestation",
+    "Full general graph-existence proof checked by a registered verifier",
+    "Any formal root closure"
+  ],
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "pull_request": null,
+  "remaining_unpersisted_sources": [
+    {
+      "bytes": 4568,
+      "disposition": "write_blocked",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/CoreExtension.lean",
+      "sha256": "365e1beb9958341ed5e959c2a8437f2f20b399159f95b46c16303bad6bdf8d95"
+    },
+    {
+      "bytes": 6913,
+      "disposition": "write_blocked",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/NoCutExtension.lean",
+      "sha256": "ef535c08db3a609f6b33bcfcdc52a8bded34df592567d68f690119c47102047e"
+    },
+    {
+      "bytes": 6485,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_certificate.py",
+      "sha256": "4cd26f2ba3bd8ff242f5e809c954bb6ae0d47d216d9adeccc770015ff0c9eb82"
+    },
+    {
+      "bytes": 2971,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_cut_certificate.py",
+      "sha256": "1365cec846ac584f46b4a9a98d4cb7c96e87e45af8a724c2b327dffb525018e7"
+    },
+    {
+      "bytes": 1887,
+      "disposition": "not_attempted_held_with_blocked_exports",
+      "path": "research/artifacts/candidates/opg37364-c31-formal-bridge-20260907/build_quantifier_certificate.py",
+      "sha256": "cb4033baae29516e4547d584989846b1e2809ffc9de6de9792f8522d04b4d973"
+    }
+  ],
+  "status": "NONTERMINAL_CHECKPOINT",
+  "transport_state_at_creation": "partial_packet_prepared_after_platform_block",
+  "trusted_verified_scope": [],
+  "verdict": "candidate_only"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CoreExtension.lean": {
+      "forbidden_declaration_tokens": [],
+      "sha256": "365e1beb9958341ed5e959c2a8437f2f20b399159f95b46c16303bad6bdf8d95"
+    },
+    "NoCutExtension.lean": {
+      "forbidden_declaration_tokens": [],
+      "sha256": "ef535c08db3a609f6b33bcfcdc52a8bded34df592567d68f690119c47102047e"
+    },
+    "QuantifierBridge.lean": {
+      "forbidden_declaration_tokens": [],
+      "sha256": "26c50eeb076f7b22b91f2b2ecbeb1adf3e7ac176d71d6731dc095a929a9a81f8"
+    }
+  },
+  "format": "r10-c31-source-hygiene-v1",
+  "scope": "text scan only; no native compilation, dependency audit or axiom-print result",
+  "verdict": "candidate_only"
+}

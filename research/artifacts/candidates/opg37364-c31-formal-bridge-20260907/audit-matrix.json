@@ -1,0 +1,54 @@
+{
+  "A_G": {
+    "A": {
+      "candidate_review": "no fatal defect found; separate permanent/tuple checks and universal slot-polynomial certificate",
+      "formal_gap": "complement-bijection and finite cardinality of compatible permutation completions; factorial/convolution induction"
+    },
+    "B": {
+      "candidate_review": "edge-instance DFS, parallel2/shared-path/vertex-only controls; exact strict total probability constants",
+      "formal_gap": "general finite pattern-cover cardinality, labelled embeddings and cycle-rank proof"
+    },
+    "C": {
+      "candidate_review": "matching deletion/extra-edge slack identity checked for all nonnegative slack variables; 43-versus24 proof re-read",
+      "formal_gap": "graph-level deletion and 2-connectivity proofs in a native proof assistant"
+    },
+    "D": {
+      "candidate_review": "general far-edge and path-length arithmetic certificates; exhaustive local switch controls and all relevant mutations",
+      "formal_gap": "finite maximum selection, ball count and full path/cycle decomposition"
+    },
+    "E": {
+      "candidate_review": "new252-node general nonempty-shore immunity-extension certificate replayed; finite bipartite/subdivision controls",
+      "formal_gap": "native Lean replay plus graph simplicity/bipartiteness/girth/2-connectivity formalization"
+    },
+    "F": {
+      "candidate_review": "general strict density coefficient certificate and26-node quantifier-order proof replayed",
+      "formal_gap": "full constructive family instantiated in native theorem, degree/cardinality bridges and real division"
+    },
+    "G": {
+      "candidate_review": "fresh OPG/publisher HTML; explicit powerset/Col/nonempty-shore mapping saved",
+      "formal_gap": "trusted separate semantic acceptance; no unique OPG author-intent assertion"
+    }
+  },
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "first_fatal_original_lemma": "none identified",
+  "first_uncompiled_lean_declaration": "R10.core_extension",
+  "first_unformalized_combinatorial_lemma": "k compatible prescribed permutation pairs have exactly (N-k)! extensions",
+  "format": "r10-c31-ag-status-v1",
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "pending_source_names": [
+    "CoreExtension.lean",
+    "NoCutExtension.lean",
+    "build_certificate.py",
+    "build_cut_certificate.py",
+    "build_quantifier_certificate.py"
+  ],
+  "read_revision": "7754aecc74e74f35f535880693282be3bc26d0d0",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "transport_limitation": "Platform blocked the call because it could not determine the safety state; an unchanged bounded retry was also blocked.",
+  "trusted_verified_scope": [],
+  "verdict": "candidate_only"
+}

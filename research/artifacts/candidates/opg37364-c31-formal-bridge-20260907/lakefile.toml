@@ -1,0 +1,7 @@
+name = "r10-c31-quantifier-bridge"
+version = "0.1.0"
+defaultTargets = ["R10Bridge"]
+
+[[lean_lib]]
+name = "R10Bridge"
+roots = ["QuantifierBridge"]

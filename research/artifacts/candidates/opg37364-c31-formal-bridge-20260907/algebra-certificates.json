@@ -1,0 +1,409 @@
+{
+  "format": "r10-c31-polynomial-certificates-v1",
+  "certificates": [
+    {
+      "id": "A_slot_without_replacement",
+      "nonnegative_variables": [
+        "i",
+        "u",
+        "t"
+      ],
+      "left": [
+        "*",
+        "u",
+        [
+          "+",
+          [
+            "+",
+            "i",
+            "u"
+          ],
+          "t"
+        ]
+      ],
+      "right": [
+        "*",
+        [
+          "+",
+          "i",
+          "u"
+        ],
+        [
+          "+",
+          "u",
+          "t"
+        ]
+      ],
+      "relation": "le",
+      "premise_mapping": "b=i+u,N=b+t. With positive denominators this is (b-i)/(N-i)<=b/N."
+    },
+    {
+      "id": "C_after_matching_and_one_edge",
+      "nonnegative_variables": [
+        "s",
+        "a",
+        "z"
+      ],
+      "left": "s",
+      "right": [
+        "-",
+        [
+          "-",
+          [
+            "+",
+            [
+              "+",
+              [
+                "*",
+                2,
+                "s"
+              ],
+              2
+            ],
+            [
+              "*",
+              2,
+              "z"
+            ]
+          ],
+          [
+            "-",
+            "s",
+            "a"
+          ]
+        ],
+        1
+      ],
+      "relation": "lt",
+      "premise_mapping": "deltaY=2s+2+2z; at most r=s-a matching edges and one spare edge deleted."
+    },
+    {
+      "id": "D_far_edge_count",
+      "nonnegative_variables": [
+        "j",
+        "B",
+        "u"
+      ],
+      "left": [
+        "*",
+        [
+          "*",
+          4,
+          [
+            "+",
+            1,
+            "j"
+          ]
+        ],
+        "B"
+      ],
+      "right": [
+        "*",
+        [
+          "+",
+          1,
+          "j"
+        ],
+        [
+          "-",
+          [
+            "+",
+            [
+              "+",
+              [
+                "*",
+                5,
+                "B"
+              ],
+              1
+            ],
+            "u"
+          ],
+          "B"
+        ]
+      ],
+      "relation": "lt",
+      "premise_mapping": "k=1+j, N=5B+1+u. Converting 2|F[P]|>=k(N-B) then needs integer division reasoning."
+    },
+    {
+      "id": "D_one_new_edge",
+      "nonnegative_variables": [
+        "h",
+        "a"
+      ],
+      "left": [
+        "+",
+        3,
+        "h"
+      ],
+      "right": [
+        "+",
+        1,
+        [
+          "+",
+          [
+            "-",
+            [
+              "+",
+              3,
+              "h"
+            ],
+            1
+          ],
+          "a"
+        ]
+      ],
+      "relation": "le",
+      "premise_mapping": "old endpoint path length is g-1+a"
+    },
+    {
+      "id": "D_first_pairing",
+      "nonnegative_variables": [
+        "h",
+        "a",
+        "u"
+      ],
+      "left": [
+        "+",
+        3,
+        "h"
+      ],
+      "right": [
+        "+",
+        [
+          "+",
+          2,
+          [
+            "+",
+            1,
+            "u"
+          ]
+        ],
+        [
+          "+",
+          [
+            "-",
+            [
+              "+",
+              3,
+              "h"
+            ],
+            1
+          ],
+          "a"
+        ]
+      ],
+      "relation": "lt",
+      "premise_mapping": "u-v path>=1, x-y path>=g-1"
+    },
+    {
+      "id": "D_second_pairing",
+      "nonnegative_variables": [
+        "h",
+        "a",
+        "b"
+      ],
+      "left": [
+        "+",
+        3,
+        "h"
+      ],
+      "right": [
+        "+",
+        [
+          "+",
+          2,
+          [
+            "+",
+            [
+              "-",
+              [
+                "+",
+                3,
+                "h"
+              ],
+              1
+            ],
+            "a"
+          ]
+        ],
+        [
+          "+",
+          [
+            "-",
+            [
+              "+",
+              3,
+              "h"
+            ],
+            1
+          ],
+          "b"
+        ]
+      ],
+      "relation": "lt",
+      "premise_mapping": "both cross paths>=g-1"
+    },
+    {
+      "id": "D_coincident_centres",
+      "nonnegative_variables": [
+        "h",
+        "a"
+      ],
+      "left": [
+        "+",
+        3,
+        "h"
+      ],
+      "right": [
+        "+",
+        2,
+        [
+          "+",
+          [
+            "-",
+            [
+              "+",
+              3,
+              "h"
+            ],
+            1
+          ],
+          "a"
+        ]
+      ],
+      "relation": "lt",
+      "premise_mapping": "one remaining x-y path>=g-1"
+    },
+    {
+      "id": "F_strict_five",
+      "nonnegative_variables": [
+        "n",
+        "r"
+      ],
+      "left": [
+        "+",
+        [
+          "-",
+          [
+            "-",
+            [
+              "*",
+              24,
+              "n"
+            ],
+            2
+          ],
+          "r"
+        ],
+        [
+          "*",
+          4,
+          [
+            "*",
+            19,
+            "n"
+          ]
+        ]
+      ],
+      "right": [
+        "*",
+        5,
+        [
+          "+",
+          "n",
+          [
+            "*",
+            19,
+            "n"
+          ]
+        ]
+      ],
+      "relation": "lt",
+      "premise_mapping": "r=24n-2-2m>=0; t=19n"
+    },
+    {
+      "id": "F_order_polynomial",
+      "nonnegative_variables": [
+        "g",
+        "T"
+      ],
+      "left": [
+        "*",
+        40,
+        [
+          "pow",
+          [
+            "*",
+            [
+              "*",
+              16,
+              [
+                "pow",
+                "g",
+                2
+              ]
+            ],
+            "T"
+          ],
+          2
+        ]
+      ],
+      "right": [
+        "*",
+        [
+          "*",
+          10240,
+          [
+            "pow",
+            "g",
+            4
+          ]
+        ],
+        [
+          "pow",
+          "T",
+          2
+        ]
+      ],
+      "relation": "eq",
+      "premise_mapping": "T=(384g^2)^(2g); exponent law T^2=(384g^2)^(4g) is separately required."
+    },
+    {
+      "id": "A_q_constant",
+      "nonnegative_variables": [],
+      "left": [
+        "*",
+        209952,
+        1461920290375446110677
+      ],
+      "right": 334999059820050306142568448,
+      "relation": "lt",
+      "premise_mapping": "69984(13/24)^19<2/3; denominators positive"
+    },
+    {
+      "id": "A_small_tail",
+      "nonnegative_variables": [],
+      "left": 8000,
+      "right": 9801,
+      "relation": "lt",
+      "premise_mapping": "400/9801<1/20"
+    },
+    {
+      "id": "A_large_tail",
+      "nonnegative_variables": [],
+      "left": 24000,
+      "right": 65536,
+      "relation": "lt",
+      "premise_mapping": "24/65536<1/1000; (5/6)^64<1/65536 proved by four-step grouping"
+    },
+    {
+      "id": "B_union_strict",
+      "nonnegative_variables": [],
+      "left": 41,
+      "right": 800,
+      "relation": "lt",
+      "premise_mapping": "1/20+1/1000+1/4000=41/800"
+    }
+  ]
+}
