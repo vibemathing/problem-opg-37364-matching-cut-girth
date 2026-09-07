@@ -1,0 +1,16 @@
+{
+  "dependency_sha256": "e8443fac57068a9cea5dc765d2433e25299163b9395dc815cd1107a156f5ffd8",
+  "format": "r10-c21b-supplemental-observation-v1",
+  "interpretation": "The original shared_path_pairs field counts >=2 common edges only. The new adjacent-edge test gives an actual common path with three distinct vertices.",
+  "observations": {
+    "actual_shared_path_pairs": 1200,
+    "explicit_theta_shared_path_pairs": 3,
+    "intersecting_pairs": 4536,
+    "nonadjacent_only_shared_edge_pairs": 360,
+    "tuples": 276,
+    "two_or_more_shared_edges": 1560
+  },
+  "scope": "Finite representation and checker-label audit only; not a universal proof or original-C21B counterexample.",
+  "status": "passed",
+  "verdict": "candidate_only"
+}

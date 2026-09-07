@@ -1,0 +1,204 @@
+{
+  "A_G_status": {
+    "A": "complete_natural_language_proof_draft; trusted_review_pending",
+    "B": "complete_natural_language_proof_draft; trusted_review_pending",
+    "C": "complete_natural_language_proof_draft; trusted_review_pending",
+    "D": "complete_natural_language_proof_draft; trusted_review_pending",
+    "E": "complete_natural_language_proof_draft; trusted_review_pending",
+    "F": "complete_natural_language_proof_draft; trusted_review_pending",
+    "G": "complete_natural_language_proof_draft; trusted_review_pending"
+  },
+  "artifacts": [
+    {
+      "bytes": 3465,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/README.md",
+      "sha256": "90de82c766d6ebbfea1163032f4ca17a45f376e135459dbd264339581e4c96f2"
+    },
+    {
+      "bytes": 2078,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/arithmetic.execution.json",
+      "sha256": "4d1a1a5f3a33dda09235099937c28f152afbc4e6248fb0a814368c342db1aa12"
+    },
+    {
+      "bytes": 1527,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/arithmetic.output.json",
+      "sha256": "f7a748ffd43561ff575e365e72843fbd6693476157ba4ccaec84a610693c30e3"
+    },
+    {
+      "bytes": 0,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/arithmetic.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6347,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/audit-matrix.json",
+      "sha256": "89e76a39ccd7de990246fe0a30713b98f965d8146591998347e905b2f66a348b"
+    },
+    {
+      "bytes": 5007,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/bounded_runner.py",
+      "sha256": "555514b1ba45b24df16cf7f03929a0ccf4fe811dddab7f27863c9af5cfb0d084"
+    },
+    {
+      "bytes": 22252,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/checker.py",
+      "sha256": "e8443fac57068a9cea5dc765d2433e25299163b9395dc815cd1107a156f5ffd8"
+    },
+    {
+      "bytes": 2069,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/cycles.execution.json",
+      "sha256": "d4414fdd914365d8f68d2b9958425b699dbad367287712cb5a2aef8e9145f6fa"
+    },
+    {
+      "bytes": 714,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/cycles.output.json",
+      "sha256": "9e97eac8f0e47dea5278aa59b0953e083f1ed1e42fab8839ca43477da46ed9f1"
+    },
+    {
+      "bytes": 0,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/cycles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5691,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/frozen-inputs.json",
+      "sha256": "ef33df1e84510a8f1fb6f2f62ebd47104f9b6d137ffa3c9ec114976721109a84"
+    },
+    {
+      "bytes": 2068,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/graphs.execution.json",
+      "sha256": "7c67f07bbefd1e114de9eb8b3bb3e3a3a172ce8c68a605f90c0cd2e6c5347d33"
+    },
+    {
+      "bytes": 958,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/graphs.output.json",
+      "sha256": "90c8cad2dccac77081e9afa24c333626d1bb6c1ea67d66e1c5419b2cade98b8d"
+    },
+    {
+      "bytes": 0,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/graphs.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 501,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/input.json",
+      "sha256": "cce187142f6f5205c7d69a9d02e424cde08291b6819664f5d7295a90ab6d6b64"
+    },
+    {
+      "bytes": 7590,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/mutations.md",
+      "sha256": "19c0456a6d74a34f9d0435c9446463d211b7f9c4243e6ae292711240a1a601ea"
+    },
+    {
+      "bytes": 5007,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/bounded_runner.py",
+      "sha256": "555514b1ba45b24df16cf7f03929a0ccf4fe811dddab7f27863c9af5cfb0d084"
+    },
+    {
+      "bytes": 2823,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/checker.py",
+      "sha256": "5f71edd1afe5aedca288f905d2c522ad134cdcce8e23400538cf92de83397a0e"
+    },
+    {
+      "bytes": 2069,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/cycles.execution.json",
+      "sha256": "e10de2841f6e706e086a952fc006fb793e3f274e948eccd260642a84968aff4e"
+    },
+    {
+      "bytes": 736,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/cycles.output.json",
+      "sha256": "165ff04570ad762c247e21997de2a4f7bcba34bfcd940a5c2c53f49aab366075"
+    },
+    {
+      "bytes": 0,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/cycles.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 311,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/overlap-path-audit/input.json",
+      "sha256": "ed5cc82bdaca22fb20926541f6825b85df0a7401e46cff149d87e33019c75eff"
+    },
+    {
+      "bytes": 26019,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/proof.md",
+      "sha256": "82a1adb1043c9a60b3c9d43696d68c24ca14bf7addd3189dd09b9cfcbd13cbb8"
+    },
+    {
+      "bytes": 2067,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/smoke.execution.json",
+      "sha256": "6ee08c4120a9f3aa5c5a6594cf79636f23ee723be1cfb1495adef44558bc0756"
+    },
+    {
+      "bytes": 384,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/smoke.output.json",
+      "sha256": "594cc65816064c13572c4dc04554aacd17b9d454cb5907275ab3e9ffba7fa77a"
+    },
+    {
+      "bytes": 0,
+      "path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/smoke.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "attempt_id": "attempt:web-20260906-opg37364-a01",
+  "best_available_candidate": "Self-contained proof.md plus actual finite checks, mutation controls and source mapping, all candidate_only.",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "candidate_id": "candidate:opg37364-c21b-full-audit-1735793e",
+  "candidate_state": "RESULT_CANDIDATE_READY",
+  "candidate_substate": "full-refutation-proof-drafted",
+  "created_at": "2026-09-07T04:56:31.602621+00:00",
+  "failed_routes": {
+    "fresh_ledger_ids": [],
+    "mutations": "Fourteen deliberately weakened/incorrect versions detected; none is a counterexample to the original C21B. A checker statistics label was additionally disambiguated with a separate real run.",
+    "new_original_route_failure": null
+  },
+  "finite_execution": {
+    "limits_each": {
+      "address_space_bytes": 268435456,
+      "cpu_seconds": 35,
+      "output_bytes": 131072,
+      "threads": 1,
+      "wall_seconds": 40
+    },
+    "records": 5,
+    "runtime": "CPython 3.13.5, Linux, standard library",
+    "status": "all exit_code=0, no forced stop",
+    "type": "candidate-generator local self-check"
+  },
+  "first_erroneous_original_lemma_found": null,
+  "first_open_gap": "No gap identified in the written general argument. The first open acceptance obligation is a scope-authorized formal kernel/axiom/statement-faithfulness verification of the frozen A-G proof.",
+  "format": "r10-c21b-candidate-handoff-v1",
+  "frozen_revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+  "graph_id": "graph:opg37364-initial-v1",
+  "latest_main_read": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+  "limitations": [
+    "All A-G completion labels are natural-language candidate judgments, not repository obligation closure.",
+    "No Lean, SMT, registered mathematical verifier or enormous selector was executed.",
+    "Original OPG shorthand is not claimed uniquely unambiguous; source mapping uses the explicitly frozen nonempty-shore predicate and the primary published explicit definition.",
+    "No branch, PR, Issue comment, EvidenceLink or Result was written this turn."
+  ],
+  "matrix_path": "research/artifacts/candidates/opg37364-c21b-audit-1735793e/audit-matrix.json",
+  "next_action": "Fresh-read main and Issue3; do not rerun old transport inventory. With a write-capable candidate channel, deduplicate this full candidate ID, publish one packet/PR in allowed paths, then hand the fixed proof and checks to scope-authorized kernel, axiom/escape and semantic reviewers. Do not extend fixture policies or create truth records.",
+  "next_obligation": "obligation:opg37364-root",
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+  "route_id": "route:degenerate-and-bridge-audit-v1",
+  "target_obligation": "obligation:opg37364-root",
+  "theorem": "For fixed d0=5 and every integer g>=3 there is a finite simple 2-connected bipartite G with girth>=g, maximum degree<=62, 2|E|+2<=5|V|, and no matching cut with both shores nonempty.",
+  "transport": {
+    "branch_created": false,
+    "capability_observation": "Three bounded discoveries: create returned none, comment exposed reads only, complete GitHub namespace exposed 48 read/search functions and no write actions. Installed GitHub plugin confirmed; local GitHub CLI not installed. No write success or permission-denied HTTP result is invented.",
+    "issue_checkpoint_posted": false,
+    "issue_number": 3,
+    "last_existing_issue_checkpoint_read": 5563494176,
+    "new_github_commit": null,
+    "pull_request_created": false,
+    "state": "local_artifacts_ready; remote_write_pending",
+    "writes_performed": []
+  },
+  "verdict": "candidate_only"
+}

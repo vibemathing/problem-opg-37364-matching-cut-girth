@@ -1,0 +1,117 @@
+{
+  "format": "r10-c21b-fixed-inputs-v1",
+  "frozen_revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+  "harness_snapshot_sha256_declared": "37571a0281982cad0cfa139a67034aba25a70a21b9d7370901da6045b73dc427",
+  "harness_version": "1.2.4",
+  "primary_external_sources": [
+    {
+      "format": "HTML",
+      "id": "S1",
+      "retrieved_date": "2026-09-07",
+      "scope": "original statement; shorthand does not explicitly spell out nonempty shores",
+      "url": "https://www.openproblemgarden.org/op/matching_cut_and_girth"
+    },
+    {
+      "format": "HTML",
+      "id": "S2",
+      "retrieved_date": "2026-09-07",
+      "scope": "Sections 1, 1.2, 2 and Observation 1(i); attribution and semantic mapping only, not existence premise",
+      "url": "https://link.springer.com/article/10.1007/s00453-025-01318-8",
+      "version": "version of record, 2025-05-08"
+    }
+  ],
+  "problem_contract_sha256_declared": "cb72346bada4d4c41ce287a6d04f4b756717cc0a12cdb85ace863b379873d0eb",
+  "sources": [
+    {
+      "git_blob_sha1": "1357c2b8aff9d92c0dc609dc25b914ea4651a92c",
+      "path": "research/artifacts/candidates/opg37364-c16-elementary-unbounded-family.md",
+      "reference": "R1",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    },
+    {
+      "git_blob_sha1": "ed9a46326c3a994e26d0236a5b87eda7c2004c6c",
+      "path": "research/artifacts/candidates/opg37364-c20-degree24-seed.md",
+      "reference": "R2",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": "2633106848426c561eb173591321516ab85340826db0d0e405bb3aaf08e674db",
+      "sha256_status": "declared in fresh R9; not recomputed from raw bytes in this turn"
+    },
+    {
+      "git_blob_sha1": "bbd02fbae16c186c1c7fd6bb92de01a65fdf31d8",
+      "path": "research/artifacts/candidates/opg37364-c21-seed-margin-9491f4b1.md",
+      "reference": "R3",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": "4297bdb0cc3f1b484936f74c719f1701c10ccf08414d638a1a0b8b6566d0a43a",
+      "sha256_status": "recomputed from original bytes whose Git blob matches fresh remote object"
+    },
+    {
+      "git_blob_sha1": "75fb6ca72e8d69dd4e45934bb15e5b41ef2ddec1",
+      "path": "research/artifacts/candidates/opg37364-c21-density62-9491f4b1.md",
+      "reference": "R4",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": "e1f10b41a6233e4ad8325f302cf8fc23ece3b954d1a41cd3019fa19f2cdd0857",
+      "sha256_status": "recomputed from original bytes whose Git blob matches fresh remote object"
+    },
+    {
+      "git_blob_sha1": "1e332bb52016b1f43094aa61fa9de12094c8cd04",
+      "path": "research/artifacts/candidates/opg37364-c21-degree63-density.md",
+      "reference": "R5",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    },
+    {
+      "git_blob_sha1": "f1628e285b4d80ef8f1362242d9930cd0a15acdb",
+      "path": "research/artifacts/candidates/opg37364-c22-integer-count.md",
+      "reference": "R6",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    },
+    {
+      "git_blob_sha1": "95ad2064894a7e213b25a9b0a9cab1c7c3cc58ac",
+      "path": "research/artifacts/candidates/opg37364-c22-integer-interface.json",
+      "reference": "R7",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    },
+    {
+      "git_blob_sha1": "fd32b584415c519f7bf465028c7ef610ab2c4368",
+      "path": "research/artifacts/source-notes/opg37364-c20-source-map.md",
+      "reference": "R8",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    },
+    {
+      "git_blob_sha1": "0612966d64cb5362d673f20af50f1f84fd74d098",
+      "path": "research/artifacts/web-inbox/opg37364-a01-c20.json",
+      "reference": "R9",
+      "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+      "retrieval": "fresh GitHub connector file read, fixed commit",
+      "revision": "1735793e9f60d9d003e8948b350cfc09efd8a7ea",
+      "sha256": null,
+      "sha256_status": "not recomputed; fixed Git blob identifies source content"
+    }
+  ],
+  "verdict": "candidate_only"
+}
