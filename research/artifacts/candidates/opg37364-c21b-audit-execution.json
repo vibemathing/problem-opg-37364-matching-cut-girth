@@ -1,0 +1,39 @@
+{
+  "code_sha256": "f203a11c2a1734bd4fde50c8d34c5fb4170c85056281aae0c13c5b29d010d3f5",
+  "command": [
+    "python3",
+    "research/artifacts/candidates/opg37364-c21b-audit-checker.py",
+    "research/artifacts/candidates/opg37364-c21b-audit-input.json"
+  ],
+  "dependencies": "Python standard library only",
+  "duration_seconds": 1.622175,
+  "exit_code": 0,
+  "format": "bounded-generator-execution-v1",
+  "input_sha256": "71debf99a59e57823f959c9eb71313073fa90fdad564c8fec902e211b8abd1bf",
+  "launcher": "research/artifacts/candidates/opg37364-c21b-audit-runner.py",
+  "launcher_sha256": "9a26a947909dce518683ea9baf457d3031c41f15fac946b03836387babcf10c7",
+  "limitations": "Finite controls only. No C20 selector at general size, Lean, SMT or universal theorem verification executed.",
+  "limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 40,
+    "stderr_bytes": 65536,
+    "stdout_bytes": 65536,
+    "threads": 1,
+    "wall_seconds": 45
+  },
+  "output_bytes": 4509,
+  "output_sha256": "e51abd80ce6dd1d4100b8a4f4d41f68f8576d4870b11da10f429d81812f539d7",
+  "python_build": [
+    "main",
+    "Jul 15 2026 20:25:40"
+  ],
+  "python_compiler": "GCC 14.2.0",
+  "python_implementation": "CPython",
+  "python_version": "3.13.5",
+  "runtime_lane": "User-requested local bounded checks, not a GitHub command-execution capability or a trusted registered verifier.",
+  "started_at": "2026-09-07T04:38:22.589412+00:00",
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "timed_out": false,
+  "verdict": "candidate_only"
+}
