@@ -1,0 +1,166 @@
+{
+  "assertions_passed": 127643,
+  "checker_version": "opg37364-c21b-audit-v2",
+  "checks": {
+    "A.C22_reference": 1,
+    "A.binomial_bound": 465,
+    "A.coefficient_enumeration": 139,
+    "A.finite_sum_identity": 100,
+    "A.finite_tail_constant": 1,
+    "A.incidence_enumeration": 8,
+    "A.inversion_symmetry": 139,
+    "A.large_shore_constant": 1,
+    "A.recurrence_mass": 3475,
+    "A.recurrence_support": 3475,
+    "A.small_shore_bound": 1,
+    "A.small_theta": 1,
+    "A.tuple_recurrence_enumeration": 104,
+    "A.union_not_incidence": 8,
+    "AB.N2_full_weighted_count": 1,
+    "AB.strict_good_count": 1,
+    "B.cycle_union_excess": 3036,
+    "B.fixture.parallel_triple": 1,
+    "B.fixture.shared_edge": 1,
+    "B.fixture.shared_path": 1,
+    "B.fixture.shared_vertex": 1,
+    "B.fixture_excess": 8,
+    "B.pattern_extension_enumeration": 988,
+    "B.pattern_size": 3036,
+    "B.unoriented_cycle_dedup": 672,
+    "C.cut_loss_bound": 21744,
+    "C.deleted_edges_matching": 360,
+    "C.positive_degree_deficit": 1,
+    "C.positive_even_margin": 39202,
+    "C.positive_extra_deletion": 39202,
+    "C.positive_parallel_pair_count": 1,
+    "C.positive_two_connected": 1,
+    "C.simple_and_girth": 360,
+    "D.control.coincident_centres": 1,
+    "D.control.uv_xy_pairing": 1,
+    "D.control.uy_vx_pairing": 1,
+    "D.control_current_distance": 3,
+    "D.control_initial_girth": 3,
+    "D.exhaustive_local_switch": 8913,
+    "D.full_control_exact_regularization": 1,
+    "D.full_control_far_edge": 1,
+    "D.full_control_hypotheses": 1,
+    "D.maximal_not_maximum": 1,
+    "E.girth_projection": 1024,
+    "E.immune_core_preservation": 16,
+    "E.nonvacuous_controls": 1,
+    "E.simple_bipartite": 1024,
+    "EG.forest_infinite_girth": 1,
+    "EG.nonempty_shores_and_empty_crossing": 1,
+    "F.order_identity_controls": 48,
+    "F.parameter_controls": 48,
+    "F.strict_integer_arithmetic": 4,
+    "input.arithmetic_limits": 1,
+    "input.enumeration_limits": 1,
+    "input.format": 1,
+    "input.switch_limit": 1,
+    "mutation.distinct_neighbour_multigraph_rejected": 1,
+    "mutation.missing_deficit_rejected": 4,
+    "mutation.old_quarter_bound_rejected": 1,
+    "mutation.orientation_duplicate_rejected": 1,
+    "mutation.parity_rejected": 1,
+    "mutation.slot_independence_rejected": 1,
+    "mutation.stale_distance_rejected": 1,
+    "mutation.subdivide_core_rejected": 1
+  },
+  "format": "r10-c21b-audit-output-v1",
+  "input_sha256": "71debf99a59e57823f959c9eb71313073fa90fdad564c8fec902e211b8abd1bf",
+  "mutations_detected": {
+    "allow_empty_shore": {
+      "empty_shore_would_accept": true,
+      "graph": "K1"
+    },
+    "arbitrary_subdivision": {
+      "core": "K2,3",
+      "matching_cut_mask": 36,
+      "new_order": 11,
+      "subdivided_all_edges": true
+    },
+    "cycle_orientation": {
+      "actual_distinct_cycles": 1,
+      "false_union_excess": "e=v=4"
+    },
+    "incidence_equals_union": {
+      "incidence": 1204,
+      "union": 602
+    },
+    "maximal_equals_maximum": {
+      "B": 10,
+      "F_edges_after": 104,
+      "F_edges_before": 103,
+      "N": 52,
+      "deficit_vertex": 0,
+      "g": 4,
+      "k": 2
+    },
+    "omit_extra_seed_deletion": {
+      "k": 38,
+      "strict_hypothesis_met": false,
+      "worst_case_average": "5 exactly"
+    },
+    "omit_overlap": {
+      "N": 2,
+      "all_tuples": 16777216,
+      "overlap_tuples": 16777216,
+      "q": 24
+    },
+    "omit_parity": {
+      "B": 2,
+      "N": 11,
+      "g": 3,
+      "k": 1,
+      "obstruction": "odd degree sum",
+      "r": 0
+    },
+    "parallel_neighbour_collapse": {
+      "distinct_opposite_neighbours": 1,
+      "edge_instances": 2
+    },
+    "slot_independence": {
+      "actual_probability": "0",
+      "false_product": "1/4"
+    },
+    "stale_distance": {
+      "J_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "new_girth": 3,
+      "target_girth": 4,
+      "u": 0,
+      "v": 1,
+      "xy": [
+        2,
+        3
+      ]
+    }
+  },
+  "references": {
+    "N2_q24": {
+      "bad_overlap": 16777216,
+      "bad_union": 602,
+      "fixed_shore": 301,
+      "incidence": 1204
+    },
+    "large_shore_bracket": {
+      "denominator": 2393397489569403764736,
+      "numerator": 1461920290375446110677
+    }
+  },
+  "scope": "Exact bounded generator checks only; no general good tuple enumerated, no universal proof or trusted verification inferred.",
+  "verdict": "candidate_only"
+}
