@@ -1,0 +1,22 @@
+{
+  "format": "r10-c21b-bounded-observation-v1",
+  "mode": "cycles",
+  "observations": {
+    "disjoint_cycle_tuple_controls": 72,
+    "intersecting_cycle_pairs": 4536,
+    "mutations_detected": [
+      "drop_parallel_2_cycles",
+      "merge_edge_instances",
+      "duplicate_cycle_orientations",
+      "unbounded_deletion_degree"
+    ],
+    "partial_permutation_constraints": 840,
+    "positive_seed": "K6,6 minus one edge; g=3 control only",
+    "shared_edge_pairs": 4308,
+    "shared_path_pairs": 1560,
+    "tuples": 276
+  },
+  "scope": "Only the explicitly selected finite models and synthetic controls; not a universal proof or trusted verifier receipt.",
+  "status": "passed",
+  "verdict": "candidate_only"
+}

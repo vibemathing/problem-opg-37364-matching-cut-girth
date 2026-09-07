@@ -1,0 +1,70 @@
+{
+  "format": "r10-c21b-bounded-observation-v1",
+  "mode": "arithmetic",
+  "observations": {
+    "N2_q24": {
+      "Z": 16777216,
+      "bad_tuple_union": 602,
+      "fixed_bad_shore": 301,
+      "incidence": 1204,
+      "orbit_types": 25,
+      "overlap_union": 16777216
+    },
+    "brute_models": [
+      {
+        "N": 1,
+        "incidence": 0,
+        "q": 3,
+        "tuples": 1,
+        "union": 0
+      },
+      {
+        "N": 2,
+        "incidence": 28,
+        "q": 3,
+        "tuples": 8,
+        "union": 8
+      },
+      {
+        "N": 2,
+        "incidence": 44,
+        "q": 4,
+        "tuples": 16,
+        "union": 16
+      },
+      {
+        "N": 3,
+        "incidence": 4248,
+        "q": 3,
+        "tuples": 216,
+        "union": 216
+      },
+      {
+        "N": 3,
+        "incidence": 18576,
+        "q": 4,
+        "tuples": 1296,
+        "union": 1296
+      }
+    ],
+    "coefficient_pairs": 284,
+    "finite_sum_cases": 200,
+    "large_shore_bracket": {
+      "denominator": 2393397489569403764736,
+      "numerator": 1461920290375446110677
+    },
+    "mutations_detected": [
+      "diagonal_weight_two",
+      "incidence_equals_union",
+      "independent_slots",
+      "omit_overlap",
+      "omit_strict_seed_deficit"
+    ],
+    "normalization_stages": 9656,
+    "parameter_cases": 28,
+    "slot_cases": 284
+  },
+  "scope": "Only the explicitly selected finite models and synthetic controls; not a universal proof or trusted verifier receipt.",
+  "status": "passed",
+  "verdict": "candidate_only"
+}

@@ -1,0 +1,12 @@
+{
+  "format": "r10-c21b-bounded-observation-v1",
+  "mode": "smoke",
+  "observations": {
+    "arithmetic": "exact Python int and Fraction",
+    "smoke": "passed",
+    "third_party_packages": []
+  },
+  "scope": "Only the explicitly selected finite models and synthetic controls; not a universal proof or trusted verifier receipt.",
+  "status": "passed",
+  "verdict": "candidate_only"
+}

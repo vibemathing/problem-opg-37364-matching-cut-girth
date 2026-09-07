@@ -1,0 +1,142 @@
+{
+  "blocks": [
+    {
+      "audit_finding": "Without-replacement falling factorials; alpha is incidence not union; bracket <2/3; finite small and large sums <1/20+1/1000.",
+      "block": "A",
+      "finite_check_outputs": [
+        "arithmetic.output.json"
+      ],
+      "limitations": "Finite coefficient and tuple checks do not prove the uniform inequality; the separate A proof does.",
+      "mutations_detected": [
+        "independent_slots",
+        "diagonal_weight_two",
+        "incidence_equals_union"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#A",
+      "source_references": "R2, R6, R7",
+      "title": "24-permutation bad-shore bound and finite sums",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "Connected union has e>=v+1 even with shared paths/edges or parallel 2-cycles; catalogue times labeling probability <=C/N; joint failure <41/800.",
+      "block": "B",
+      "checker_label_correction": "Original shared_path_pairs counts >=2 common edges. Supplemental adjacency test found 1200 actual shared-path pairs and 360 pairs with only nonadjacent common edges.",
+      "finite_check_outputs": [
+        "cycles.output.json",
+        "arithmetic.output.json",
+        "overlap-path-audit/cycles.output.json"
+      ],
+      "limitations": "Small overlapping-cycle checks validate representations only; general pattern bound is proved separately.",
+      "mutations_detected": [
+        "drop_parallel_2_cycles",
+        "duplicate_cycle_orientations",
+        "omit_overlap"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#B",
+      "source_references": "R2, R6",
+      "title": "Intersecting short-cycle cover and existence",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "Even auxiliary cut >2s means >=2s+2. Matching deletion leaves >=s+2; one more edge leaves >=s+1. Bipartite cutvertex argument with l=22,R=24 and 2l-1>R.",
+      "block": "C",
+      "finite_check_outputs": [
+        "cycles.output.json",
+        "arithmetic.output.json"
+      ],
+      "limitations": "The executed K6,6-minus-edge control is only a g=3 synthetic graph, not a generated degree-24 seed.",
+      "mutations_detected": [
+        "merge_edge_instances",
+        "unbounded_deletion_degree",
+        "omit_strict_seed_deficit"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#C",
+      "source_references": "R2, R3",
+      "title": "Matching deletion, strict one-edge margin and two-connectivity",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "Maximum cardinality, even part deficit, N>5B and current J balls produce far edge. All two-new-edge cycle pairings and u=v are handled.",
+      "block": "D",
+      "finite_check_outputs": [
+        "graphs.output.json"
+      ],
+      "limitations": "Exhaustive small local switches do not satisfy global N>5B in general; two separately supplied controls do satisfy full size/parity assumptions.",
+      "mutations_detected": [
+        "inclusion_maximum_confusion",
+        "stale_H_distance",
+        "missing_parity"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#D",
+      "source_references": "R4",
+      "title": "Exact same-part artificial k-regularization",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "One distinct new vertex per artificial edge, current J simple; projected cycles, deletion connectivity and both old-colour cases proved.",
+      "block": "E",
+      "finite_check_outputs": [
+        "graphs.output.json"
+      ],
+      "limitations": "All colourings of the 16 controls were tested; general preservation is a separate two-case proof.",
+      "mutations_detected": [
+        "subdivide_artificial_twice",
+        "empty_shore_allowed"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#E",
+      "source_references": "R4",
+      "title": "Subdivision of artificial edges only",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "Fix k=38,d0=5 first; M=4C sufficient; t=19n, nG=20n, 2mG<=5nG-2; degree<=62 and exact prescribed order.",
+      "block": "F",
+      "finite_check_outputs": [
+        "arithmetic.output.json"
+      ],
+      "limitations": "Arithmetic g=3..30 is finite support only. Formula and parameter domination are proved for every integer g>=3.",
+      "mutations_detected": [
+        "omit_strict_seed_deficit"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#F",
+      "source_references": "R4",
+      "title": "Integer endpoint, degree/order and quantifiers",
+      "trusted_status": "pending"
+    },
+    {
+      "audit_finding": "Frozen two-nonempty-shore convention matches explicit valid-colouring definition in the formal paper. Final connected cyclic graphs avoid order/empty-crossing/forest issues.",
+      "block": "G",
+      "finite_check_outputs": [],
+      "limitations": "Natural-language mapping is complete for the expressly frozen interpretation; historical OPG shorthand is not claimed uniquely unambiguous and trusted semantic review is still pending.",
+      "mutations_detected": [
+        "empty_shore_allowed"
+      ],
+      "natural_language_status": "complete_proof_draft",
+      "proof_section": "proof.md#G",
+      "source_references": "R4, R8, S1, S2",
+      "title": "Frozen statement and primary-source faithfulness",
+      "trusted_status": "pending"
+    }
+  ],
+  "candidate_id": "candidate:opg37364-c21b-full-audit-1735793e",
+  "candidate_state": "RESULT_CANDIDATE_READY",
+  "candidate_substate": "full-refutation-proof-drafted",
+  "first_erroneous_original_lemma_found": null,
+  "format": "r10-c21b-audit-matrix-v1",
+  "general_proof_open_gap_identified": null,
+  "proof_sha256": "82a1adb1043c9a60b3c9d43696d68c24ca14bf7addd3189dd09b9cfcbd13cbb8",
+  "required_capabilities": [
+    "kernel_check",
+    "axiom_escape_audit",
+    "statement_faithfulness"
+  ],
+  "trusted_verification_status": "not_performed",
+  "verdict": "candidate_only",
+  "warning": "All completion labels concern the written natural-language candidate only. No admitted obligation is closed by this matrix or by finite checks."
+}

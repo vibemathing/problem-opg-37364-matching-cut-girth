@@ -1,0 +1,54 @@
+{
+  "authorization": "The current user explicitly requested bounded exact-integer and synthetic controls. No GitHub workflow dispatch, registry privilege, or truth write is performed.",
+  "code_sha256": "e8443fac57068a9cea5dc765d2433e25299163b9395dc815cd1107a156f5ffd8",
+  "command": [
+    "python3",
+    "checker.py",
+    "--input",
+    "input.json",
+    "--mode",
+    "arithmetic"
+  ],
+  "cpu_user_seconds": 1.108173,
+  "elapsed_seconds": 1.230286,
+  "execution_role": "candidate-generator local self-check, not registered verifier",
+  "exit_code": 0,
+  "finished_at": "2026-09-07T04:37:09.097466+00:00",
+  "forced_stop": null,
+  "format": "r10-c21b-candidate-execution-v1",
+  "input_sha256": "cce187142f6f5205c7d69a9d02e424cde08291b6819664f5d7295a90ab6d6b64",
+  "limitations": [
+    "Finite tests do not establish the universal A-G statements.",
+    "No Lean, SMT, mathematical-admission policy, or independent trust domain is invoked.",
+    "No enormous permutation-selector or regularization-selector instance was generated."
+  ],
+  "limits": {
+    "address_space_bytes": 268435456,
+    "combined_stdout_stderr_bytes": 131072,
+    "cpu_seconds": 35,
+    "file_size_bytes": 131072,
+    "process_count": "one checker process; checker launches no children",
+    "produced_files_max": 3,
+    "threads": 1,
+    "wall_seconds": 40
+  },
+  "max_rss_kib": 95024,
+  "mode": "arithmetic",
+  "routing": {
+    "device": "CPU",
+    "reason": "Small finite graph controls and exact arbitrary-precision integer arithmetic; no floating-point or GPU calculation."
+  },
+  "runner_sha256": "555514b1ba45b24df16cf7f03929a0ccf4fe811dddab7f27863c9af5cfb0d084",
+  "runtime": {
+    "implementation": "CPython",
+    "system": "Linux",
+    "third_party_packages": [],
+    "version": "3.13.5"
+  },
+  "started_at": "2026-09-07T04:37:07.866395+00:00",
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 1527,
+  "stdout_sha256": "f7a748ffd43561ff575e365e72843fbd6693476157ba4ccaec84a610693c30e3",
+  "verdict": "candidate_only"
+}

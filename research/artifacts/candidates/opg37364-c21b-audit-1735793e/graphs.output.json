@@ -1,0 +1,43 @@
+{
+  "format": "r10-c21b-bounded-observation-v1",
+  "mode": "graphs",
+  "observations": {
+    "coincident_switches": 5598,
+    "colourings": 2560,
+    "global_size_controls": [
+      {
+        "B": 10,
+        "N": 52,
+        "g": 4,
+        "k": 1,
+        "r": 2
+      },
+      {
+        "B": 7,
+        "N": 36,
+        "g": 5,
+        "k": 2,
+        "r": 0
+      }
+    ],
+    "local_graphs": 1098,
+    "local_switches": 7254,
+    "mutations_detected": [
+      "inclusion_maximum_confusion",
+      "stale_H_distance",
+      "missing_parity",
+      "subdivide_artificial_twice",
+      "empty_shore_allowed"
+    ],
+    "old_monochromatic_cases": 130,
+    "old_split_cases": 2430,
+    "pairing_cycle_lengths": [
+      7,
+      10
+    ],
+    "subdivision_graphs": 16
+  },
+  "scope": "Only the explicitly selected finite models and synthetic controls; not a universal proof or trusted verifier receipt.",
+  "status": "passed",
+  "verdict": "candidate_only"
+}
