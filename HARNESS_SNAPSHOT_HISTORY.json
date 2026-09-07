@@ -13,6 +13,13 @@
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
       "source_manifest_sha256": "27a22779f4ea8418115002a4a180553b0f23425b69e4deb76f2bd6ae893b2993",
       "tree_sha256": "74b1f291ee3a7e7e37eba2ed4f2f36ca6b092f764187c0a53086da88015a1932"
+    },
+    {
+      "harness_snapshot_sha256": "37571a0281982cad0cfa139a67034aba25a70a21b9d7370901da6045b73dc427",
+      "harness_version": "1.2.4",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+      "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
+      "tree_sha256": "92c6753d46ecf7a400b19726030610bbf554b2ffe3f2318fa295497caeb74da5"
     }
   ],
   "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
