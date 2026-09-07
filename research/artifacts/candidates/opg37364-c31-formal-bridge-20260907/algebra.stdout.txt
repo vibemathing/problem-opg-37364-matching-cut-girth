@@ -1,0 +1,199 @@
+{
+  "certificates": [
+    {
+      "difference_coefficients": [
+        [
+          [
+            "i",
+            "t"
+          ],
+          1
+        ]
+      ],
+      "id": "A_slot_without_replacement"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          1
+        ],
+        [
+          [
+            "a"
+          ],
+          1
+        ],
+        [
+          [
+            "z"
+          ],
+          2
+        ]
+      ],
+      "id": "C_after_matching_and_one_edge"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          1
+        ],
+        [
+          [
+            "j"
+          ],
+          1
+        ],
+        [
+          [
+            "j",
+            "u"
+          ],
+          1
+        ],
+        [
+          [
+            "u"
+          ],
+          1
+        ]
+      ],
+      "id": "D_far_edge_count"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [
+            "a"
+          ],
+          1
+        ]
+      ],
+      "id": "D_one_new_edge"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          2
+        ],
+        [
+          [
+            "a"
+          ],
+          1
+        ],
+        [
+          [
+            "u"
+          ],
+          1
+        ]
+      ],
+      "id": "D_first_pairing"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          3
+        ],
+        [
+          [
+            "a"
+          ],
+          1
+        ],
+        [
+          [
+            "b"
+          ],
+          1
+        ],
+        [
+          [
+            "h"
+          ],
+          1
+        ]
+      ],
+      "id": "D_second_pairing"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          1
+        ],
+        [
+          [
+            "a"
+          ],
+          1
+        ]
+      ],
+      "id": "D_coincident_centres"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          2
+        ],
+        [
+          [
+            "r"
+          ],
+          1
+        ]
+      ],
+      "id": "F_strict_five"
+    },
+    {
+      "difference_coefficients": [],
+      "id": "F_order_polynomial"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          28065971015144644313710944
+        ]
+      ],
+      "id": "A_q_constant"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          1801
+        ]
+      ],
+      "id": "A_small_tail"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          41536
+        ]
+      ],
+      "id": "A_large_tail"
+    },
+    {
+      "difference_coefficients": [
+        [
+          [],
+          759
+        ]
+      ],
+      "id": "B_union_strict"
+    }
+  ],
+  "domain": "each named variable is a nonnegative integer; no bounded substitution test",
+  "format": "r10-c31-polynomial-replay-v1",
+  "input_sha256": "8cc0f4a8074e02f3675106150a169aed498f8de6db90dbec9bea8d9e5f34f564",
+  "limitation": "formal coefficient criterion is generator-owned; graph-to-slack premise mapping and native Lean replay are not supplied by this script",
+  "verdict": "candidate_only"
+}

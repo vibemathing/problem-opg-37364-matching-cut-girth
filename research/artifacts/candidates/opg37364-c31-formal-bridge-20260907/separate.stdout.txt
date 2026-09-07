@@ -1,0 +1,118 @@
+{
+  "A": {
+    "coefficient_cases": 90,
+    "direct_tuple_evaluations": 1676,
+    "q24_histogram": {
+      "0": 16776614,
+      "2": 602
+    },
+    "q24_incidence": 1204,
+    "q24_union": 602
+  },
+  "B_C": {
+    "adjacent_shared_path_pairs": 3588,
+    "overlap_pairs": 8523,
+    "prescribed_pair_controls": 1610,
+    "shared_edge_pairs": 8523,
+    "tuples": 225,
+    "vertex_only_overlap_controls": 1
+  },
+  "D_E": {
+    "coincident": 4581,
+    "core_controls": 16,
+    "local_exchanges": 6237,
+    "nonconstant_colourings": 2560
+  },
+  "F": {
+    "finite_parameter_checks": 10,
+    "strict_rational_comparisons": 8,
+    "universal_parameter_proof": "see conventional audit, not implied by these ten cases"
+  },
+  "assertions": 37961,
+  "format": "r10-c31-separate-audit-v1",
+  "limitation": "Finite controls do not prove the high-girth family. E logical propagation is separately checked as a general proof certificate.",
+  "mutations": [
+    {
+      "certificate": "N=3,b=1,k=2: without replacement0, replacement1/9",
+      "detected": true,
+      "id": "M01"
+    },
+    {
+      "certificate": "actual independent aggregation in recurrence test: incidence1204 != union602",
+      "detected": true,
+      "id": "M02"
+    },
+    {
+      "certificate": "three parallel edges have three distinct two-cycles",
+      "detected": true,
+      "id": "M03"
+    },
+    {
+      "certificate": "theta paths of length2: all short-cycle pairs share two adjacent edges",
+      "detected": true,
+      "id": "M04"
+    },
+    {
+      "certificate": "nonmatching deletion removes2 crossing edges at a single vertex",
+      "detected": true,
+      "id": "M05"
+    },
+    {
+      "certificate": "stale empty H sees distance infinity; actual J switch creates triangle",
+      "detected": true,
+      "id": "M06"
+    },
+    {
+      "certificate": "no 1-regular graph on3 vertices",
+      "detected": true,
+      "id": "M07"
+    },
+    {
+      "certificate": "k2,N20,g3,H empty: only vertex0 has deficit2; coincident-centre switch is required",
+      "detected": true,
+      "id": "M08"
+    },
+    {
+      "certificate": "one added edge closes a forbidden triangle",
+      "detected": true,
+      "id": "M09"
+    },
+    {
+      "certificate": "monochromatic core and opposite new vertex has two crossing edges",
+      "detected": true,
+      "id": "M10"
+    },
+    {
+      "certificate": "without seed deficit, n50,2m1200 yields final average exactly5",
+      "detected": true,
+      "id": "M11"
+    },
+    {
+      "certificate": "collapsing coloured edges changes matching predicate",
+      "detected": true,
+      "id": "M12"
+    },
+    {
+      "certificate": "twice subdividing an old K3 edge creates matching-cut shore{3,4}",
+      "detected": true,
+      "id": "M13"
+    },
+    {
+      "certificate": "empty shore has empty crossing set but is not permitted",
+      "detected": true,
+      "id": "M14"
+    },
+    {
+      "certificate": "common edges{0,1},{3,4} are disjoint, not a path",
+      "detected": true,
+      "id": "M15"
+    },
+    {
+      "certificate": "one-neighbour attachment creates a singleton matching-cut shore",
+      "detected": true,
+      "id": "M16"
+    }
+  ],
+  "trusted_verified_scope": [],
+  "verdict": "candidate_only"
+}

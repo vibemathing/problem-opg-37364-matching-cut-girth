@@ -1,0 +1,21 @@
+{
+  "container_timeouts_seconds": [
+    20,
+    40
+  ],
+  "format": "r10-c31-exploratory-run-note-v1",
+  "outputs": {
+    "exploratory-audit.stdout.txt": {
+      "bytes": 3152,
+      "sha256": "9cf57c5eb76cb5438040bc50d7a28d2ceab9104400c8bb545f2d7a8e84d7c272"
+    },
+    "exploratory-replay.stdout.txt": {
+      "bytes": 1292,
+      "sha256": "85e28d2cf64803ad843c7fac7193ac109b831f71d440ae33d6cab88e02334c7a"
+    }
+  },
+  "purpose": "Preserve actual exploratory outputs without relabelling their resource controls. Final bounded runs are separately frozen.",
+  "separate_address_space_limit": "not set for the exploratory calls",
+  "source_digest_at_exploratory_run": "not captured; these outputs are not a reproducible frozen execution receipt",
+  "verdict": "candidate_only"
+}
