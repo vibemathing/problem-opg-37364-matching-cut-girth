@@ -1,0 +1,57 @@
+{
+  "constant_attribution": "69828 and 31878 are derived C33 manuscript constants, not numbers quoted from the publication.",
+  "definition_retrieved_date": "2026-09-08",
+  "dependency_status": "C31/C32 source imports remain frozen; no new elaboration or trusted semantic receipt is claimed.",
+  "digest_scope": "The source-map file has its own digest; no whole-page digest is claimed.",
+  "external_page_payload_sha256": null,
+  "lean_commit": "6caaee842e9495688c1567e78c0e68dbb96942aa",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "official_definitions": [
+    {
+      "comparison": "Empty-shore exclusion not made explicit; the frozen contract is explicit.",
+      "locator": "Question and next definition",
+      "url": "https://www.openproblemgarden.org/op/matching_cut_and_girth"
+    },
+    {
+      "comparison": "Simple finite undirected graph domain, both colours occur, forest girth infinity. The auxiliary multigraph is not a final graph.",
+      "locator": "Section 2 first paragraph and valid-colouring condition 3; Section 1 Our Focus",
+      "url": "https://link.springer.com/article/10.1007/s00453-025-01318-8"
+    }
+  ],
+  "read_revision": "2f13311db729316187f5b3fc073bf8b831ae1166",
+  "root_interpretation": "finite simple graphs; both cut shores nonempty; crossing matching may be empty",
+  "slice_interpretation": "auxiliary edge-coloured multigraph; two distinct 2-cycles sharing a vertex; not one isolated 2-cycle",
+  "sources": [
+    {
+      "git_blob": "8686e5d35b2adf7d7194d605d39d2967fa2db908",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    },
+    {
+      "git_blob": "ed9a46326c3a994e26d0236a5b87eda7c2004c6c",
+      "path": "research/artifacts/candidates/opg37364-c20-degree24-seed.md",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    },
+    {
+      "git_blob": "75fb6ca72e8d69dd4e45934bb15e5b41ef2ddec1",
+      "path": "research/artifacts/candidates/opg37364-c21-density62-9491f4b1.md",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    },
+    {
+      "git_blob": "edf36365d95b5bf9a06e85b8664fb2ab3b0a6651",
+      "path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10/CompletionCardinality.lean",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    },
+    {
+      "git_blob": "fc869ce8cc04ff97043c4022625e372cff463b41",
+      "path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitCounts.lean",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    },
+    {
+      "git_blob": "326bcba4eb83f5bd4eeb1a049e4807d273dbb2d5",
+      "path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitProbability.lean",
+      "revision": "2f13311db729316187f5b3fc073bf8b831ae1166"
+    }
+  ],
+  "verdict": "candidate_only"
+}

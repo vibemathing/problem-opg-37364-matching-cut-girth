@@ -1,0 +1,33 @@
+{
+  "base_revision": "2f13311db729316187f5b3fc073bf8b831ae1166",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "branch": "web/attempt-opg37364-a01-c33-parallel22-20260908",
+  "failed_route_proposal": null,
+  "first_uncompiled_slice_lemma": "R10.Parallel22.bad22_le_incidence",
+  "first_unformalized_count": "bijection of graph-defined unordered two-cycle pair witnesses with the T/Q/L/R index types and their cardinalities",
+  "issue_number": 3,
+  "lean_status": "portable interface source not compiled; no locked native environment observed",
+  "mathematical_candidate": "N^2|Bad22| <= N^2|I22| = (69828N-31878)(N!)^24 for N>=1",
+  "next_action": "Elaborate C33 table bridge and T/Q/L/R counting bijections at the fixed version, then the mixed two-cycle/long-cycle shared-edge pattern.",
+  "old_frozen_sources_changed": false,
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "proof_status": "self-contained conventional proof drafted; finite controls passed",
+  "remaining_catalogue": [
+    "mixed/long shared edge instances",
+    "shared paths and multiple common components",
+    "vertex-disjoint short-cycle families for matching deletion, not bad-event mass",
+    "mixed/long vertex-only intersections"
+  ],
+  "root_closure": false,
+  "slice": "Bad22 incidence for two overlapping parallel two-cycles",
+  "stage": "pre_PR snapshot; final transport receipt will be appended to Issue 3",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "target": "obligation:opg37364-root",
+  "total_41_over_800_claimed": false,
+  "trusted_verified_scope": [],
+  "verdict": "candidate_only"
+}

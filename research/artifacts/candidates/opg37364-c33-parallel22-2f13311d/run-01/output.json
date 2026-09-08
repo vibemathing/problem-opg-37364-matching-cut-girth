@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "N": 0,
+      "bad_union": 0,
+      "by_shape": {},
+      "feasible_witnesses": 0,
+      "incidences": 0,
+      "q": 24,
+      "single_2cycle_incidences": 0,
+      "tuples": 1
+    },
+    {
+      "N": 1,
+      "bad_union": 1,
+      "by_shape": {
+        "Q": 31878,
+        "T": 6072
+      },
+      "feasible_witnesses": 37950,
+      "incidences": 37950,
+      "q": 24,
+      "single_2cycle_incidences": 276,
+      "tuples": 1
+    },
+    {
+      "N": 2,
+      "bad_union": 2,
+      "by_shape": {
+        "T": 12
+      },
+      "feasible_witnesses": 12,
+      "incidences": 12,
+      "q": 3,
+      "single_2cycle_incidences": 24,
+      "tuples": 8
+    },
+    {
+      "N": 2,
+      "bad_union": 16,
+      "by_shape": {
+        "L": 12,
+        "Q": 12,
+        "R": 12,
+        "T": 96
+      },
+      "feasible_witnesses": 84,
+      "incidences": 132,
+      "q": 4,
+      "single_2cycle_incidences": 96,
+      "tuples": 16
+    },
+    {
+      "N": 2,
+      "bad_union": 32,
+      "by_shape": {
+        "L": 120,
+        "Q": 120,
+        "R": 120,
+        "T": 480
+      },
+      "feasible_witnesses": 300,
+      "incidences": 840,
+      "q": 5,
+      "single_2cycle_incidences": 320,
+      "tuples": 32
+    },
+    {
+      "N": 3,
+      "bad_union": 60,
+      "by_shape": {
+        "T": 216
+      },
+      "feasible_witnesses": 27,
+      "incidences": 216,
+      "q": 3,
+      "single_2cycle_incidences": 648,
+      "tuples": 216
+    },
+    {
+      "N": 3,
+      "bad_union": 1080,
+      "by_shape": {
+        "L": 864,
+        "Q": 432,
+        "R": 864,
+        "T": 5184
+      },
+      "feasible_witnesses": 243,
+      "incidences": 7344,
+      "q": 4,
+      "single_2cycle_incidences": 7776,
+      "tuples": 1296
+    },
+    {
+      "N": 4,
+      "bad_union": 0,
+      "by_shape": {},
+      "feasible_witnesses": 0,
+      "incidences": 0,
+      "q": 2,
+      "single_2cycle_incidences": 576,
+      "tuples": 576
+    }
+  ],
+  "general_proof": "proof.md, not extrapolation from this execution",
+  "hit_count_cases": 341,
+  "mutations": [
+    {
+      "correct": "1/8",
+      "detected": true,
+      "id": "M01-repeated-common-edge-counted-twice",
+      "incorrect": "1/16"
+    },
+    {
+      "correct": "0",
+      "detected": true,
+      "id": "M02-same-input-two-distinct-outputs",
+      "incorrect": "1/9"
+    },
+    {
+      "correct": "0",
+      "detected": true,
+      "id": "M03-two-inputs-singleton-target-b-less-k",
+      "incorrect": "1/9"
+    },
+    {
+      "correct": "1/6",
+      "detected": true,
+      "id": "M04-distinct-prescribed-pairs-not-independent",
+      "incorrect": "1/9"
+    },
+    {
+      "correct": "1/3",
+      "detected": true,
+      "id": "M05-two-hit-slots-with-replacement",
+      "incorrect": "4/9"
+    },
+    {
+      "correct": "1",
+      "detected": true,
+      "id": "M06-incidence-equals-bad-union",
+      "incorrect": "15"
+    },
+    {
+      "correct": "15",
+      "detected": true,
+      "id": "M07-ordered-instead-of-unordered-cycle-pair",
+      "incorrect": "30"
+    },
+    {
+      "correct": "15",
+      "detected": true,
+      "id": "M08-omit-Q-from-exact-incidence",
+      "incorrect": "12"
+    },
+    {
+      "correct": "False",
+      "detected": true,
+      "id": "M09-single-two-cycle-treated-as-overlap",
+      "incorrect": "True"
+    },
+    {
+      "correct": "4",
+      "detected": true,
+      "id": "M10-omit-one-endpoint-forks",
+      "incorrect": "0"
+    },
+    {
+      "correct": "6",
+      "detected": true,
+      "id": "M11-merge-coloured-parallel-edges",
+      "incorrect": "0"
+    },
+    {
+      "correct": "15",
+      "detected": true,
+      "id": "M12-allow-identical-cycle-pair",
+      "incorrect": "21"
+    },
+    {
+      "correct": "0",
+      "detected": true,
+      "id": "M13-left-fork-reusing-coordinate",
+      "incorrect": "1/16"
+    },
+    {
+      "correct": "0",
+      "detected": true,
+      "id": "M14-right-fork-reusing-coordinate",
+      "incorrect": "1/16"
+    }
+  ],
+  "q24_formula": "Pr(Bad22) <= 69828/N - 31878/N^2 < 69828/N (N>=1)",
+  "scope": "finite controls only; candidate_only",
+  "total_enumerated_tuples": 2146
+}
