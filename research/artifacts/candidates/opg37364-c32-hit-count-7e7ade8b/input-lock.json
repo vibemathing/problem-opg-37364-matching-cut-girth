@@ -1,0 +1,37 @@
+{
+  "format": "r10-c32-immutable-input-lock-v1",
+  "verdict": "candidate_only",
+  "read_main": "7e7ade8bde918c2c9eac9925bb068254de2f0bc0",
+  "lean_version": "4.19.0",
+  "lean_commit": "6caaee842e9495688c1567e78c0e68dbb96942aa",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "transitive_commits": {
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+  },
+  "c31_directory": "research/artifacts/candidates/opg37364-c31-native-lock-20260907",
+  "c31_sources": {
+    "R10/CompletionEquiv.lean": "6c8d34156e1204899e850fa8092aae3de4faf36e063f1d840c3819bfa7c778a6",
+    "R10/CompletionCardinality.lean": "4d347de4950eb71a129f9848af486e97037c70d76a03e09f1c581aa77f616352",
+    "R10/ProductCounts.lean": "0828d8f31eee2184980bd250d2074ba8f4190fd671beba17bea9c79c992b43fd",
+    "R10/AxiomAudit.lean": "d5170a7a3daf4f540434a27b0ca1a3aecfa78a2397bcaa468df721f537640c78"
+  },
+  "external_replay_report": {
+    "source": "user instruction in this continuation",
+    "status": "reported_not_reproduced_in_current_runtime",
+    "reported_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "reported_memory_bytes": 4294967296,
+    "receipt_locator": null
+  },
+  "trusted_gate_verdict": null
+}
