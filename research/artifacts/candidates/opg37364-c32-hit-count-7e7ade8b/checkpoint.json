@@ -1,0 +1,37 @@
+{
+  "format": "r10-c32-checkpoint-v1",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "verdict": "candidate_only",
+  "base_revision": "7e7ade8bde918c2c9eac9925bb068254de2f0bc0",
+  "issue_number": 3,
+  "branch": "web/attempt-opg37364-a01-c32-hit-count-20260908",
+  "pull_request_number": null,
+  "compiled_in_this_runtime": false,
+  "observed_compiler_exit_code": null,
+  "observed_driver_exit_code": 2,
+  "observed_start_error": "ENOENT before lean process creation",
+  "external_replay": "user-reported C31 success; no attached external receipt read",
+  "trusted_verified_scope": [],
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "first_old_unreplayed_lemma": "R10.Cardinality.preservesRegion",
+  "first_new_uncompiled_count": "R10.Hits.card_hit",
+  "next_action": "Run pinned replay on the reachable installed native Lean/Mathlib environment; after nine C31 audit declarations pass, compile HitCounts then HitProbability and their twelve audit declarations. Fix first actual error without changing C31. Continue with general graph-incidence/overlap catalogue after this slice.",
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "new_failed_routes": [],
+  "artifact_sha256": {
+    "R10/HitAudit.lean": "5eea82a368ec27b3cbef65076690b0c8f5787c3a16224b7e1cb0df2a1fd3ce07",
+    "R10/HitCounts.lean": "113e5ccc4b1c39d3c8756a6355b9803f824276ca74e013086f20cfd623a308bc",
+    "R10/HitProbability.lean": "9a98f85b05e87c42bcb2a1676ae1ae3f0e67035f036c3ebf2f71af45f931041c",
+    "input-lock.json": "9e76ec93fcca81fd398223e56b43144400da6c11127f663683e19ffb7492588d",
+    "replay-local/command-001.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "replay-local/command-001.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "replay-local/execution.json": "851ed702d21c902fc537cdffb1fc518842da37e9a1ccc9e4c23a3d1fcb6d0d27",
+    "replay.py": "9baae4fa3da5dd7bbecc61c6dc55114b19f2143875778bf2d48a8433eed49d28",
+    "report.md": "a1a3ca813388dbb25a138ac62c5ebec443d01c74938d00adf7322227b117c0b1"
+  },
+  "manifest_sha256": "a2c50da872a1d96c5f28a2293432a0668c86f630ef5d03bbabf03263c50d1646"
+}
