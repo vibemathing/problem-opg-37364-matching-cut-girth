@@ -1,0 +1,18 @@
+{
+  "actual_axioms": null,
+  "compiled_modules": [],
+  "files": {
+    "R10/AxiomAudit.lean": {
+      "literal_escape_tokens": [],
+      "sha256": "b7d0c960598b1ce8daee073fe4eac8f4035902e47b94976bbe6477002619e37f"
+    },
+    "R10/Parallel22.lean": {
+      "literal_escape_tokens": [],
+      "sha256": "6002875239b7bab2caa1186c96f4e63d010e72b1aa9ab00dcecd907ff0d2f822"
+    }
+  },
+  "method": "literal lexical scan, not native axiom audit",
+  "native_toolchain_fingerprint": null,
+  "trusted_gate_verdict": null,
+  "verdict": "candidate_only"
+}

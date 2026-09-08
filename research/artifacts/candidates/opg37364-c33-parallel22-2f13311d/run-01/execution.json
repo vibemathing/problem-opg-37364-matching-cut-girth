@@ -1,0 +1,51 @@
+{
+  "actual_axioms": null,
+  "argv": [
+    "python",
+    "-I",
+    "-S",
+    "parallel22.py",
+    "input.json"
+  ],
+  "elapsed_seconds": 0.84219,
+  "exit_code": 0,
+  "inputs": {
+    "input.json": "b72197dca39544870a7b2c76ca6afaa340ef1faae757c21e87b15fc204a92637",
+    "parallel22.py": "d6c74ce3702dbb7d4dd075c3b72ee9ff62229300a6be9a37c5f5c85f9df5f8af",
+    "run_bounded.py": "aa42b66a62fbcbaccb88b618440e4a43bd9dd2539ec4fd417650bcfdb52d732c"
+  },
+  "lean_compilation": "not_run_no_locked_environment_observed",
+  "limits": {
+    "combined_output_bytes": 131072,
+    "cpu_seconds": 35,
+    "memory_bytes": 268435456,
+    "threads": 1,
+    "wall_seconds": 40
+  },
+  "native_tools_found": {
+    "elan": false,
+    "lake": false,
+    "lean": false
+  },
+  "platform": "Linux",
+  "python_version": "3.13.5",
+  "started_at": "2026-09-08T11:49:41.236301+00:00",
+  "status": "finite_controls_passed",
+  "stderr": {
+    "bytes": 0,
+    "locator": "run-01/stderr.txt",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sanitized": false,
+    "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 4122,
+    "locator": "run-01/output.json",
+    "raw_sha256": "03d00f9a8babf9a199584fa8fe4dc62d850fbcc6079e3728dd10d74ab8a6d5ad",
+    "sanitized": false,
+    "saved_sha256": "03d00f9a8babf9a199584fa8fe4dc62d850fbcc6079e3728dd10d74ab8a6d5ad"
+  },
+  "stop_reason": null,
+  "trusted_gate_verdict": null,
+  "verdict": "candidate_only"
+}
