@@ -18,7 +18,7 @@
     "artifact_name": "build-Linux release",
     "expected_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
     "observed_size_bytes": 1456550059,
-    "outcome": "Artifact exceeds tool maximum 536870912 bytes; no artifact downloaded; no attempt to bypass size limit."
+    "acquisition_status": "Artifact exceeds tool maximum 536870912 bytes; no artifact downloaded; no attempt to bypass size limit."
   },
   "direct_download": "Bounded direct requests could not resolve official GitHub hosts; container download route did not produce bytes.",
   "limitations": [
