@@ -1,0 +1,28 @@
+{
+  "format": "r10-c34-domain-control-v1",
+  "N": 2,
+  "q": 24,
+  "cycles": [
+    {
+      "x": 0,
+      "y": 0,
+      "colours": [
+        0,
+        1
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "colours": [
+        0,
+        2
+      ]
+    }
+  ],
+  "is_raw_c33_witness": true,
+  "compatible": false,
+  "realization_count": 0,
+  "contradiction": "The same omega_0(0) would equal both 0 and 1.",
+  "scope": "Counterexample only to classifying ALL raw witnesses into the four NONZERO classes; not a counterexample to C33 or the root."
+}

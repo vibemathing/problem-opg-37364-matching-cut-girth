@@ -1,0 +1,86 @@
+{
+  "base_revision": "f9d7956eda5ac0f30d22f0fb8e48de3d3bc1870a",
+  "records": [
+    {
+      "archive": "opg37364-c31-cardinality-7754aecc.zip",
+      "path": "research/artifacts/candidates/opg37364-c31-cardinality-7754aecc/R10/AxiomAudit.lean",
+      "size": 471,
+      "sha256": "d5170a7a3daf4f540434a27b0ca1a3aecfa78a2397bcaa468df721f537640c78",
+      "git_blob": "b0aee9f09bec816e21832fe17f718b7dc7f3eb61",
+      "repository_path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10/AxiomAudit.lean"
+    },
+    {
+      "archive": "opg37364-c31-cardinality-7754aecc.zip",
+      "path": "research/artifacts/candidates/opg37364-c31-cardinality-7754aecc/R10/CompletionCardinality.lean",
+      "size": 2969,
+      "sha256": "4d347de4950eb71a129f9848af486e97037c70d76a03e09f1c581aa77f616352",
+      "git_blob": "edf36365d95b5bf9a06e85b8664fb2ab3b0a6651",
+      "repository_path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10/CompletionCardinality.lean"
+    },
+    {
+      "archive": "opg37364-c31-cardinality-7754aecc.zip",
+      "path": "research/artifacts/candidates/opg37364-c31-cardinality-7754aecc/R10/CompletionEquiv.lean",
+      "size": 4496,
+      "sha256": "6c8d34156e1204899e850fa8092aae3de4faf36e063f1d840c3819bfa7c778a6",
+      "git_blob": "06777241fc6407e5a32ce1a61aa4df66e99b577a",
+      "repository_path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10/CompletionEquiv.lean"
+    },
+    {
+      "archive": "opg37364-c31-cardinality-7754aecc.zip",
+      "path": "research/artifacts/candidates/opg37364-c31-cardinality-7754aecc/R10/ProductCounts.lean",
+      "size": 1844,
+      "sha256": "0828d8f31eee2184980bd250d2074ba8f4190fd671beba17bea9c79c992b43fd",
+      "git_blob": "017be8bfb34e4c26af818695d8e3272959df7179",
+      "repository_path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10/ProductCounts.lean"
+    },
+    {
+      "archive": "opg37364-c31-cardinality-7754aecc.zip",
+      "path": "research/artifacts/candidates/opg37364-c31-cardinality-7754aecc/R10.lean",
+      "size": 85,
+      "sha256": "796a7858c380627f77bb59898614bb744e72a3ebd1ef0780a933437931ab3573",
+      "git_blob": "0b0eeb093db51107dbf9e1568176d871280c0b9c",
+      "repository_path": "research/artifacts/candidates/opg37364-c31-native-lock-20260907/R10.lean"
+    },
+    {
+      "archive": "opg37364-c32-persisted-source.zip",
+      "path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitAudit.lean",
+      "size": 537,
+      "sha256": "5eea82a368ec27b3cbef65076690b0c8f5787c3a16224b7e1cb0df2a1fd3ce07",
+      "git_blob": "cfd31e5a6f6b6a1deb440e293c0f1b38cd853718",
+      "repository_path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitAudit.lean"
+    },
+    {
+      "archive": "opg37364-c32-persisted-source.zip",
+      "path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitCounts.lean",
+      "size": 8083,
+      "sha256": "113e5ccc4b1c39d3c8756a6355b9803f824276ca74e013086f20cfd623a308bc",
+      "git_blob": "fc869ce8cc04ff97043c4022625e372cff463b41",
+      "repository_path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitCounts.lean"
+    },
+    {
+      "archive": "opg37364-c32-persisted-source.zip",
+      "path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitProbability.lean",
+      "size": 5831,
+      "sha256": "9a98f85b05e87c42bcb2a1676ae1ae3f0e67035f036c3ebf2f71af45f931041c",
+      "git_blob": "326bcba4eb83f5bd4eeb1a049e4807d273dbb2d5",
+      "repository_path": "research/artifacts/candidates/opg37364-c32-hit-count-7e7ade8b/R10/HitProbability.lean"
+    },
+    {
+      "archive": "opg37364-c33-parallel22-persisted.zip",
+      "path": "research/artifacts/candidates/opg37364-c33-parallel22-2f13311d/R10/AxiomAudit.lean",
+      "size": 531,
+      "sha256": "b7d0c960598b1ce8daee073fe4eac8f4035902e47b94976bbe6477002619e37f",
+      "git_blob": "8330e7deacfc67bb83bc2a3624c46c8bfdd3fb52",
+      "repository_path": "research/artifacts/candidates/opg37364-c33-parallel22-2f13311d/R10/AxiomAudit.lean"
+    },
+    {
+      "archive": "opg37364-c33-parallel22-persisted.zip",
+      "path": "research/artifacts/candidates/opg37364-c33-parallel22-2f13311d/R10/Parallel22.lean",
+      "size": 7136,
+      "sha256": "6002875239b7bab2caa1186c96f4e63d010e72b1aa9ab00dcecd907ff0d2f822",
+      "git_blob": "0899b06c1f379d00349e52e81f2683f992eef4f2",
+      "repository_path": "research/artifacts/candidates/opg37364-c33-parallel22-2f13311d/R10/Parallel22.lean"
+    }
+  ],
+  "status": "Recovered bytes; matching fixed Git blob identities checked against fresh main. Old files are not republished in this package."
+}
