@@ -1,0 +1,36 @@
+{
+  "format": "r10-c35-native-replay-v1",
+  "verdict": "candidate_only",
+  "started_at": "2026-09-09T03:45:38.693802+00:00",
+  "python_version": "3.13.5",
+  "platform": "Linux",
+  "driver_sha256": "535e85168c8b923ad1dbd375f3713bb5fb55ae4533395ae7da2420ef7b79811f",
+  "input_lock_sha256": "3345abdeee726c813eee4520297a9f3020c348736ca9faecaf8bc5fd1d1e1514",
+  "available_tools": {
+    "lean": false,
+    "lake": false,
+    "elan": false
+  },
+  "native_compiler_started": false,
+  "commands": [],
+  "compiled_modules": [],
+  "actual_axioms": null,
+  "actual_toolchain_fingerprint": null,
+  "trusted_gate_verdict": null,
+  "first_error": null,
+  "source_sha256": {
+    "R10/C35FiniteColors.lean": "78fab57d1b0c58e87f697c8a595cc1bb4c1c0ffff8efd115a88364418ca9e56a",
+    "R10/C35RankBridge.lean": "8daa85be2918f0179edd6be10acf38e1db19206a493481c89d17cb1e7038457b",
+    "R10/C35WitnessEquiv.lean": "6806205fdf581fda49c2f997251d83674d40807c800f6262e6b102aa8ea9043a",
+    "R10/C35AxiomAudit.lean": "74c8c778036fec832809271fc8372c47f84c02ae4ec63be81792cbca3e2d76aa"
+  },
+  "escape_scan": {
+    "R10/C35FiniteColors.lean": [],
+    "R10/C35RankBridge.lean": [],
+    "R10/C35WitnessEquiv.lean": [],
+    "R10/C35AxiomAudit.lean": []
+  },
+  "status": "probe_only_no_native_compilation",
+  "driver_exit_code": 0,
+  "finished_at": "2026-09-09T03:45:38.699484+00:00"
+}

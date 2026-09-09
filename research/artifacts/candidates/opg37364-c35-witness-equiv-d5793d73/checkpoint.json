@@ -1,0 +1,48 @@
+{
+  "format": "r10-c35-checkpoint-v1",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "verdict": "candidate_only",
+  "repository": "vibemathing/problem-opg-37364-matching-cut-girth",
+  "base_revision": "d5793d73b99a64c1ee6452495660ab8f74efd216",
+  "branch": "web/attempt-opg37364-a01-c35-witness-equiv-20260909",
+  "issue_number": 3,
+  "transport_state": "branch_has_three_source_commits_packet_pending_at_snapshot",
+  "original_sources_unchanged": true,
+  "new_source_scope": [
+    "Actual C33 admissible Witness to ordered-witness Equiv source",
+    "Explicit T/Q/L/R normal-form encoders and inverse scripts",
+    "Four unexecuted Lean finite colour reductions, not Python certificates",
+    "Exact C34 index TYPE equivalence source, cardinality-selected colour maps",
+    "Incidence/admissibility equivalence and constructed-table C32 count connection"
+  ],
+  "first_uncompiled_dependency": "R10.Parallel22.bad22_le_incidence / ProjectionOnly",
+  "first_new_uncompiled_declaration": "R10.Parallel22.C35.Colors.mask_injective",
+  "open_native_checks": [
+    "All C31-C34 dependencies in Lean4.33.1",
+    "Finite colour reductions",
+    "C35 maps and inverses",
+    "24 named axiom queries"
+  ],
+  "first_remaining_mathematical_source_gap": "Shape-specific 3/4 active-factor simplification and probability-weighted incidence summation",
+  "marker_semantics": "Use witnessIndexEquiv.symm; final colour rank reindexing is not asserted identical to old Python canonical decoder",
+  "native_compiler_started": false,
+  "compiled_modules": [],
+  "actual_axioms": null,
+  "actual_toolchain_fingerprint": null,
+  "trusted_attestation": null,
+  "trusted_gate_verdict": null,
+  "actual_probe_locator": "probe/execution.json",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "trusted_verified_scope": [],
+  "open_obligations": [
+    "obligation:opg37364-contract-edge-cases",
+    "obligation:opg37364-root"
+  ],
+  "next_action": "Finish the one C35 PR transaction, then in a reachable exact locked native environment replay the original projection/dependencies and C35, recording the first actual compiler error. No new probability catalogue or admission_request.",
+  "failed_routes": [],
+  "notes": [
+    "Checkpoint is a pre-PR snapshot; final transport state belongs to the packet and Issue #3 comment.",
+    "No mathematical test output from earlier candidates was rerun or promoted."
+  ]
+}
