@@ -1,0 +1,47 @@
+{
+  "assertions": 1080965,
+  "canonical_mapping_stream_sha256": "6a969777c1a56739753fc78514256b09f1d98a1d70fc124167fd48e7fbf845cf",
+  "colour_pairs": 276,
+  "format": "r10-c34-complete-colour-atlas-v1",
+  "index_direction_counts": {
+    "L": 63756,
+    "Q": 31878,
+    "R": 63756,
+    "T": 6072
+  },
+  "negative_controls": {
+    "distinct_inputs_singleton_target_zero": true,
+    "duplicated_identical_pair_is_one": true,
+    "fixed_pairs_not_two_target_hit": true,
+    "incidence_not_union_n1": true,
+    "q_same_endpoints_is_not_t": true,
+    "same_input_distinct_outputs_zero": true,
+    "shared_edge_is_three_not_four_constraints": true,
+    "unrestricted_witness_not_four_feasible_classes": true
+  },
+  "q": 24,
+  "scope": [
+    "All 24-colour local choices and all endpoint equality types, not small graph samples.",
+    "The written support-renaming proof is needed to pass from representatives to arbitrary N.",
+    "The program checks the explicit two-way maps; it is not a Lean compiler or trusted verifier.",
+    "No whole-catalogue bound, Good tuple or root-family theorem is claimed."
+  ],
+  "symbolic_cardinalities": {
+    "L": "63756*N*choose(N,2)",
+    "Q": "31878*N^2",
+    "R": "63756*N*choose(N,2)",
+    "T": "6072*N^2",
+    "incidence_over_sample": "69828/N-31878/N^2 (N>=1)"
+  },
+  "verdict": "candidate_only",
+  "witness_direction_counts": {
+    "L": 63756,
+    "L_zero": 12420,
+    "Q": 31878,
+    "R": 63756,
+    "R_zero": 12420,
+    "T": 6072,
+    "diagonal_excluded": 276,
+    "disjoint_excluded": 76176
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format": "r10-c34-source-hygiene-v1",
+  "verdict": "candidate_only",
+  "observed_at": "2026-09-08T23:12:00.678085+00:00",
+  "python_syntax": {
+    "bijections.py": "accepted_by_python_compile",
+    "replay_locked.py": "accepted_by_python_compile",
+    "run_atlas.py": "accepted_by_python_compile",
+    "source_scan.py": "accepted_by_python_compile"
+  },
+  "lean_sources": {
+    "ProjectionOnly.lean": {
+      "sha256": "3ef66691eebdde71b3d3d4df12dab6451ca1ff77dc98d6403d9f21cab965c613",
+      "escape_tokens": []
+    },
+    "R10.lean": {
+      "sha256": "b155f5435603fd2e8ed7db6a3a25d8d597170f7b84769a4e5dc5ab48ad981c08",
+      "escape_tokens": []
+    },
+    "R10/C34AxiomAudit.lean": {
+      "sha256": "a1bf067597c34b9bf23e3411997134fc54a918ab2c53f6d7c7d1322000680873",
+      "escape_tokens": []
+    },
+    "R10/C34Classification.lean": {
+      "sha256": "517e45afe9b85f27019bdbb699cdd2a8d320b5b67dee329dd8d9a7c2f4ebb129",
+      "escape_tokens": []
+    },
+    "R10/C34IndexCardinalities.lean": {
+      "sha256": "7cef474dc22d75d179322c1ad332e441133aa23c07ef13c7fffe14aa2331efaf",
+      "escape_tokens": []
+    }
+  },
+  "native_compilation": false,
+  "actual_axioms": null,
+  "scanner_sha256": "91f273564b819cefe5b5a8ebae1a6ca23215ba33e07d8848eb4397f6379d91ec",
+  "scope": "Lexical and Python syntax controls only. No Lean parser, elaborator or kernel was executed."
+}

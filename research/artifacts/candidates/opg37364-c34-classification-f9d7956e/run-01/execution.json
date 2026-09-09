@@ -1,0 +1,30 @@
+{
+  "format": "r10-c34-atlas-execution-v1",
+  "verdict": "candidate_only",
+  "started_at": "2026-09-08T22:58:27.610678+00:00",
+  "python_version": "3.13.5",
+  "platform": "Linux",
+  "limits": {
+    "wall_seconds": 40,
+    "cpu_seconds": 35,
+    "memory_bytes": 268435456,
+    "output_bytes_per_stream": 65536,
+    "thread_environment": 1
+  },
+  "command": [
+    "python",
+    "-S",
+    "bijections.py",
+    "input.json"
+  ],
+  "input_sha256": "9237104177dc83875028debbb10552e9cd8837bfe307757897b6aa78d73e6019",
+  "code_sha256": "009af15c840f32e7d08c7fee2e2c894c546f1b687e7dd48de15e941315cd55bb",
+  "runner_sha256": "37460def47a26c66922513ec50ebf20415618049c2239bd498eec9cf3e5f2765",
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 4.5275,
+  "output.json_sha256": "55abf9e92985a70ef07c2f40840923b02bdc7e2b7894ab9b2ee1cda256f665b9",
+  "stderr.txt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "native_lean_invoked": false,
+  "trusted_gate_verdict": null
+}

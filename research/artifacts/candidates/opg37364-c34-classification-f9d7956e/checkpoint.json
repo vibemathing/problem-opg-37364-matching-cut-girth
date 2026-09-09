@@ -1,0 +1,62 @@
+{
+  "format": "r10-c34-nonterminal-checkpoint-v1",
+  "status": "NONTERMINAL_CHECKPOINT",
+  "verdict": "candidate_only",
+  "base_revision": "f9d7956eda5ac0f30d22f0fb8e48de3d3bc1870a",
+  "problem_id": "problem:opg-37364-matching-cut-girth",
+  "attempt_id": "attempt:web-20260906-opg37364-a01",
+  "route_id": "route:degenerate-and-bridge-audit-v1",
+  "graph_id": "graph:opg37364-initial-v1",
+  "obligation_id": "obligation:opg37364-root",
+  "best_verified_candidate": "none",
+  "best_verified_result": "none",
+  "trusted_verified_scope": [],
+  "native_compiled_scope": [],
+  "native_run_id": null,
+  "actual_axioms": null,
+  "actual_toolchain_fingerprint": null,
+  "trusted_attestation": null,
+  "trusted_gate_verdict": null,
+  "atomic_goal_completed": false,
+  "first_uncompiled_lemma": "R10.Parallel22.bad22_le_incidence (ProjectionOnly.lean isolation view)",
+  "first_missing_lean_equivalence": "Compatible graph-defined C33 Witness <-> TIndex + QIndex + LIndex + RIndex, with actual Lean inverse-law proofs. Abstract index cardinality lemmas do not fill this gap.",
+  "new_scope": {
+    "conventional_proof": "Explicit arbitrary-N canonical index maps and both inverse directions, compatibility filtering, coordinate-table derivation and exact C33 contribution.",
+    "executed": "Full 24-colour endpoint-type atlas, both directions; finite data-scope only, no ambient tuple sampling.",
+    "source_only": [
+      "isolated direct surjective projection proof",
+      "realized_admissible and inadmissible_empty",
+      "unique four-way classifier for compatible pairs",
+      "constructed Encodes and C32 event count",
+      "explicit right-fork b=1,k=2 zero count",
+      "abstract index-product cardinalities"
+    ]
+  },
+  "next_action": "Obtain access to the exact native execution environment; compile the isolated projection first, stop at the first actual elaboration error, and minimally revise only successor sources. Then translate and compile the explicit canonical Witness/index Equiv maps and compose their cardinalities with C32. Do not repeat an admission request or infer root closure.",
+  "remaining_catalogue": [
+    "mixed/long shared edge instances",
+    "shared paths including multiple common components",
+    "mixed/long vertex-only intersections",
+    "vertex-disjoint short-cycle families for matching deletion, not bad-event mass"
+  ],
+  "transport": {
+    "state": "local_staged_only",
+    "branch": null,
+    "commit": null,
+    "pull_request": null,
+    "checks": [],
+    "merge": null,
+    "issue_checkpoint_posted": false,
+    "observed_issue": 3,
+    "observed_last_comment": 5584907990,
+    "write_capability_observation": "Current discovery for create, full 48-function GitHub tool list, and add_comment_to_issue exposed no write action. No write HTTP request, 403, commit or issue comment is claimed."
+  },
+  "core_digests": {
+    "ProjectionOnly.lean": "3ef66691eebdde71b3d3d4df12dab6451ca1ff77dc98d6403d9f21cab965c613",
+    "R10/C34Classification.lean": "517e45afe9b85f27019bdbb699cdd2a8d320b5b67dee329dd8d9a7c2f4ebb129",
+    "R10/C34IndexCardinalities.lean": "7cef474dc22d75d179322c1ad332e441133aa23c07ef13c7fffe14aa2331efaf",
+    "bijections.py": "009af15c840f32e7d08c7fee2e2c894c546f1b687e7dd48de15e941315cd55bb",
+    "run-01/output.json": "55abf9e92985a70ef07c2f40840923b02bdc7e2b7894ab9b2ee1cda256f665b9",
+    "proof.md": "cb8b0a325d0e43852a99867b24d1d3b35df4952da76b710adcb0062cba9defcf"
+  }
+}

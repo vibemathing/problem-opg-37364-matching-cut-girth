@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-09-08T22:56:46.501547+00:00",
+  "native_tools": {
+    "lean": false,
+    "lake": false,
+    "elan": false
+  },
+  "local_scan": "No lean/lake/libleanshared found in bounded application/data/tool directories; no host inventory included.",
+  "native_compiler_started": false,
+  "native_exit_code": null,
+  "compiled_modules": [],
+  "axiom_output": null,
+  "acquisition_attempt": {
+    "method": "GitHub.download_workflow_artifact",
+    "repository": "leanprover/lean4",
+    "run_id": 32472624817,
+    "artifact_id": 9443409933,
+    "artifact_name": "build-Linux release",
+    "expected_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+    "observed_size_bytes": 1456550059,
+    "outcome": "Artifact exceeds tool maximum 536870912 bytes; no artifact downloaded; no attempt to bypass size limit."
+  },
+  "direct_download": "Bounded direct requests could not resolve official GitHub hosts; container download route did not produce bytes.",
+  "limitations": [
+    "This is an environment observation, not a Lean rejection.",
+    "No external execution report has been reinterpreted as a local compiler receipt.",
+    "No claim of availability of the remote environment referenced by the user."
+  ]
+}
