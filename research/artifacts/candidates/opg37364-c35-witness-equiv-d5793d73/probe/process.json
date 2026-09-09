@@ -1,0 +1,35 @@
+{
+  "format": "r10-c35-probe-process-v1",
+  "scope": "tool discovery and lexical source audit only",
+  "argv": [
+    "python",
+    "-S",
+    "replay_c35.py",
+    "--probe-only",
+    "--output",
+    "probe"
+  ],
+  "driver_sha256": "535e85168c8b923ad1dbd375f3713bb5fb55ae4533395ae7da2420ef7b79811f",
+  "input_lock_sha256": "3345abdeee726c813eee4520297a9f3020c348736ca9faecaf8bc5fd1d1e1514",
+  "python_version": "3.13.5",
+  "exit_code": 0,
+  "elapsed_seconds": 0.068458,
+  "outer_limits": {
+    "wall_seconds": 15,
+    "cpu_seconds": 10,
+    "address_space_bytes": 268435456,
+    "file_size_bytes": 131072,
+    "stdout_stderr_stream_hard_cap": null
+  },
+  "stdout_bytes": 81,
+  "stderr_bytes": 0,
+  "stdout_sha256": "6ab12d50f1ae809931a928aa7d76d4aebd3f83a55c9300604363975f32458384",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "native_compiler_commands": [],
+  "native_compiler_exit_code": null,
+  "actual_axioms": null,
+  "notes": [
+    "The probe exit code does not certify any Lean declaration.",
+    "No mathematical Python checker was run."
+  ]
+}
